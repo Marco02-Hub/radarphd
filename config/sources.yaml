@@ -132,10 +132,10 @@ sources:
     verified: true
 
   - uni: MIT
-    name: MechE graduate admissions
-    url: https://meche.mit.edu/education/prospective-students/graduate
+    name: MechE — Applying for admission
+    url: https://meche.mit.edu/education/prospective-students/graduate/apply   # la pagina /graduate ha notizie che cambiano spesso
     type: info
-    selector: .region-content
+    selector: "[role=main]"
     verified: true
 
   - uni: Harvard
