@@ -1,0 +1,110 @@
+# Pagine da monitorare.
+# type: listing -> pagina con elenco di annunci (cerca link nuovi)
+#       info    -> pagina informativa (avvisa se il testo cambia)
+# verified: false -> URL scritto a mano, DA VERIFICARE prima dell'uso.
+# selector (opzionale) -> selettore CSS che delimita la zona utile della pagina.
+
+# Parole chiave ampie: il monitor raccoglie largo, l'app filtra per le parole scelte dall'utente.
+# Usate anche per decidere cosa mandare su Telegram.
+keywords:
+  - CFD
+  - aeroelastic
+  - fluid
+  - flow control
+  - instability
+  - resolvent
+  - turbulence
+  - propulsion
+  - turbomachinery
+  - aerodynamic
+  - aerospace
+  - combustion
+  - mechanical engineering
+  - aerospace engineering
+  - structural
+  - energy
+  - robotics
+  - acoustics
+  - heat transfer
+
+phd_markers: ["phd", "ph.d", "doctoral", "doctorate", "dphil", "studentship"]
+
+sources:
+  - uni: ETH
+    name: Portale lavoro ETH (posizioni dottorato)
+    url: https://jobs.ethz.ch/
+    type: listing
+    verified: false
+
+  - uni: ETH
+    name: Dottorato D-MAVT
+    url: https://mavt.ethz.ch/
+    type: info
+    verified: false
+
+  - uni: EPFL
+    name: Scuola dottorale EDME
+    url: https://www.epfl.ch/education/phd/edme-mechanical-engineering/
+    type: info
+    verified: false
+
+  - uni: EPFL
+    name: Offerte di lavoro EPFL
+    url: https://www.epfl.ch/about/working/
+    type: listing
+    verified: false
+
+  - uni: Oxford
+    name: DPhil Engineering Science
+    url: https://www.ox.ac.uk/admissions/graduate/courses/dphil-engineering-science
+    type: info
+    verified: false
+
+  - uni: Cambridge
+    name: PhD in Engineering
+    url: https://www.postgraduate.study.cam.ac.uk/
+    type: info
+    verified: false
+
+  - uni: Imperial
+    name: PhD Aeronautics
+    url: https://www.imperial.ac.uk/aeronautics/
+    type: info
+    verified: false
+
+  - uni: MIT
+    name: AeroAstro graduate admissions
+    url: https://aeroastro.mit.edu/
+    type: info
+    verified: false
+
+  - uni: Harvard
+    name: SEAS graduate admissions
+    url: https://seas.harvard.edu/
+    type: info
+    verified: false
+
+  - uni: Stanford
+    name: Aeronautics & Astronautics admissions
+    url: https://aa.stanford.edu/
+    type: info
+    verified: false
+
+  - uni: Caltech
+    name: GALCIT
+    url: https://www.galcit.caltech.edu/
+    type: info
+    verified: false
+
+  - uni: Princeton
+    name: MAE graduate program
+    url: https://mae.princeton.edu/
+    type: info
+    verified: false
+
+  # Aggregatori utili per UK (studentship): da valutare
+  - uni: UK
+    name: FindAPhD (filtro aerospace)
+    url: https://www.findaphd.com/
+    type: listing
+    verified: false

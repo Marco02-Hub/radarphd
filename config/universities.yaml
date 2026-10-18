@@ -1,0 +1,124 @@
+# Come funziona la candidatura per ateneo.
+# model: direct | doctoral_school | uk_admission | us_department
+# photo/photo_credit: foto campus per l'header della scheda ateneo; credit obbligatorio.
+# TUTTI i testi sono da verificare sui siti ufficiali (verified: false).
+
+universities:
+  - id: ETH
+    photo: img/campus/eth.jpg   # foto fissa da Wikimedia Commons (licenza libera)
+    photo_credit: null
+    name: ETH Zürich
+    city: Zurigo
+    departments: [D-MAVT]
+    model: direct
+    rolling: true
+    steps:
+      - Trova la posizione sul portale lavoro ETH o sulla pagina del gruppo
+      - Candidati al professore tramite l'annuncio (o email diretta)
+      - Colloqui
+      - Dopo l'offerta, iscrizione al dottorato presso l'amministrazione dottorale
+    contacts: []          # da compilare: {role, name, email, url}
+    verified: false
+
+  - id: EPFL
+    photo: img/campus/epfl.jpg   # foto fissa da Wikimedia Commons (licenza libera)
+    photo_credit: null
+    name: EPFL
+    city: Losanna
+    departments: [EDME]
+    model: doctoral_school
+    rolling: false
+    deadlines: []          # date ufficiali della scuola dottorale, da compilare
+    steps:
+      - Contatta un potenziale supervisore
+      - Domanda online alla scuola dottorale (CV, trascrizioni, motivazione)
+      - Lettere di referenza
+      - Colloquio con laboratorio e/o commissione
+    contacts: []
+    verified: false
+
+  - id: Oxford
+    photo: img/campus/oxford.jpg   # foto fissa da Wikimedia Commons (licenza libera)
+    photo_credit: null
+    name: University of Oxford
+    departments: [Engineering Science]
+    model: uk_admission
+    steps:
+      - Domanda di ammissione al DPhil entro la scadenza del corso
+      - Indicare il supervisore/gruppo di interesse
+      - Finanziamento tramite studentship o borse (spesso stessa scadenza)
+    contacts: []
+    verified: false
+
+  - id: Cambridge
+    photo: img/campus/cambridge.jpg   # foto fissa da Wikimedia Commons (licenza libera)
+    photo_credit: null
+    name: University of Cambridge
+    departments: [Engineering]
+    model: uk_admission
+    steps: []
+    contacts: []
+    verified: false
+
+  - id: Imperial
+    photo: img/campus/imperial.jpg   # foto fissa da Wikimedia Commons (licenza libera)
+    photo_credit: null
+    name: Imperial College London
+    departments: [Aeronautics, Mechanical Engineering]
+    model: uk_admission
+    steps: []
+    contacts: []
+    verified: false
+
+  - id: MIT
+    photo: img/campus/mit.jpg   # foto fissa da Wikimedia Commons (licenza libera)
+    photo_credit: null
+    name: MIT
+    departments: [AeroAstro, MechE]
+    model: us_department
+    steps:
+      - Domanda al programma di dottorato del dipartimento (un ciclo l'anno)
+      - Lettere di referenza, statement of purpose
+      - Contattare i PI aiuta, ma non sostituisce la domanda
+    contacts: []
+    verified: false
+
+  - id: Harvard
+    photo: img/campus/harvard.jpg   # foto fissa da Wikimedia Commons (licenza libera)
+    photo_credit: null
+    name: Harvard University
+    departments: [SEAS]
+    model: us_department
+    steps: []
+    contacts: []
+    verified: false
+
+  - id: Stanford
+    photo: img/campus/stanford.jpg   # foto fissa da Wikimedia Commons (licenza libera)
+    photo_credit: null
+    name: Stanford University
+    departments: [Aero/Astro, ME]
+    model: us_department
+    steps: []
+    contacts: []
+    verified: false
+
+  - id: Caltech
+    photo: img/campus/caltech.jpg   # foto fissa da Wikimedia Commons (licenza libera)
+    photo_credit: null
+    name: Caltech
+    departments: [GALCIT, MechE]
+    model: us_department
+    steps: []
+    contacts: []
+    verified: false
+
+  - id: Princeton
+    photo: img/campus/princeton.jpg   # foto fissa da Wikimedia Commons (licenza libera)
+    photo_credit: null
+    name: Princeton University
+    departments: [MAE]
+    model: us_department
+    steps: []
+    contacts: []
+    verified: false
