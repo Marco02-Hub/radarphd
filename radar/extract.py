@@ -15,9 +15,11 @@ MONTHS = {m: i for i, m in enumerate(
      "august", "september", "october", "november", "december"], start=1)}
 MONTHS.update({k[:3]: v for k, v in list(MONTHS.items())})
 
-# "1 December 2026", "01 Dec 2026", "December 1, 2026", "2026-12-01"
-_DMY = re.compile(r"\b(\d{1,2})\s+([A-Za-z]{3,9})\.?\s+(\d{4})\b")
-_MDY = re.compile(r"\b([A-Za-z]{3,9})\.?\s+(\d{1,2}),\s*(\d{4})\b")
+# "1 December 2026", "2nd Dec 2026", "December 1, 2026", "2026-12-01"
+_DMY = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]{3,9})\.?\s+(\d{4})\b")
+_MDY = re.compile(r"\b([A-Za-z]{3,9})\.?\s+(\d{1,2})(?:st|nd|rd|th)?,\s*(\d{4})\b")
+# Titoli che non sono posizioni di dottorato anche se citano "PhD" (es. "PhD required").
+NOT_PHD_TITLE = re.compile(r"post-?doc|research (assistant|associate|fellow)|lecturer|professor", re.I)
 _ISO = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b")
 _DEADLINE_HINT = re.compile(r"(deadline|closing date|apply by|application[s]? close)", re.I)
 
@@ -67,21 +69,28 @@ def parse_deadline(text: str) -> date | None:
     return None
 
 
+def matched_keywords(text: str, keywords: list[str]) -> list[str]:
+    low = text.lower()
+    return [k for k in keywords if k in low]
+
+
 def find_candidates(html: str, source: Source, keywords: list[str], markers: list[str]) -> list[Candidate]:
     """Link il cui testo (o il blocco attorno) parla di PhD e contiene una parola chiave."""
     root = _scope(html, source.selector)
+    # parola intera: "doctoral" non deve scattare dentro "postdoctoral"
+    marker_rx = re.compile(r"\b(" + "|".join(re.escape(m) for m in markers) + r")", re.I)
     seen: set[str] = set()
     out: list[Candidate] = []
     for a in root.find_all("a", href=True):
         title = a.get_text(" ", strip=True)
-        if len(title) < 12:
+        if len(title) < 12 or NOT_PHD_TITLE.search(title):
             continue
         block = a.find_parent(["li", "article", "tr", "div"]) or a
         context = re.sub(r"\s+", " ", block.get_text(" ", strip=True))[:600]
         low = (title + " " + context).lower()
-        if not any(m in low for m in markers):
+        if not marker_rx.search(low):
             continue
-        hits = [k for k in keywords if k in low]
+        hits = matched_keywords(low, keywords)
         if not hits:
             continue
         url = urljoin(source.url, a["href"])

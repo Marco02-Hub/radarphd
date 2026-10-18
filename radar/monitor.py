@@ -6,9 +6,10 @@ from datetime import date
 
 from . import db
 from .config import load_sources
-from .extract import find_candidates, page_text, text_hash
+from .extract import page_text, text_hash
 from .fetch import fetch
 from .models import Alert, Candidate, Source
+from .parsers import parser_for
 
 DEADLINE_REMINDERS_DAYS = (14, 3)
 
@@ -70,7 +71,7 @@ def run_once(con: sqlite3.Connection | None = None, fetcher=fetch) -> list[Alert
         if html is None:
             continue
         if src.type == "listing":
-            for c in find_candidates(html, src, keywords, markers):
+            for c in parser_for(src)(html, src, keywords, markers):
                 if _upsert_candidate(con, c):
                     alerts.append(Alert("new_position", c.uni, f"Nuova posizione {c.uni}: {c.title}", c.url))
         else:

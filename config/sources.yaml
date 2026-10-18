@@ -140,10 +140,11 @@ sources:
     verified: true
 
   - uni: Harvard
-    name: SEAS graduate admissions
-    url: https://seas.harvard.edu/prospective-students/prospective-graduate-students
+    name: PhD Materials Science & Mechanical Engineering (scheda programma)
+    url: https://www.harvard.edu/programs/materials-science-and-mechanical-engineering/   # seas/gsas.harvard.edu: 403
     type: info
-    verified: false   # 403 anti-bot (anche gsas.harvard.edu): nessuna alternativa pubblica trovata
+    selector: main
+    verified: true
 
   - uni: Stanford
     name: Aeronautics & Astronautics PhD admissions
