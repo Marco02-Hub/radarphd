@@ -9,7 +9,12 @@
 universities:
   - id: ETH
     photo: img/campus/eth.jpg
-    photo_credit: null
+    photo_credit:
+      author: "Leonhard Lenz"
+      license: "CC0"
+      license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      url: "https://commons.wikimedia.org/wiki/File:Hauptgeb%C3%A4ude_der_ETH_Z%C3%BCrich_and_Polyterrasse_2022-09-24_01.jpg"
+      modified: "ridimensionata e ritagliata"
     name: ETH Zürich
     city: Zurigo
     departments: [D-MAVT]
@@ -42,7 +47,12 @@ universities:
 
   - id: EPFL
     photo: img/campus/epfl.jpg
-    photo_credit: null
+    photo_credit:
+      author: "Guilhem Vellut from Annecy, France"
+      license: "CC BY 2.0"
+      license_url: "https://creativecommons.org/licenses/by/2.0"
+      url: "https://commons.wikimedia.org/wiki/File:EPFL_Rolex_Learning_Center_@_EPFL_@_Lausanne_(36749824932).jpg"
+      modified: "ridimensionata"
     name: EPFL
     city: Losanna
     departments: [EDME (Mechanics)]
@@ -94,7 +104,12 @@ universities:
 
   - id: Oxford
     photo: img/campus/oxford.jpg
-    photo_credit: null
+    photo_credit:
+      author: "Julian Herzog (Website)"
+      license: "CC BY 4.0"
+      license_url: "https://creativecommons.org/licenses/by/4.0"
+      url: "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera_Oxford_2018_02.jpg"
+      modified: "ridimensionata"
     name: University of Oxford
     city: Oxford
     departments: [Engineering Science]
@@ -128,7 +143,12 @@ universities:
 
   - id: Cambridge
     photo: img/campus/cambridge.jpg
-    photo_credit: null
+    photo_credit:
+      author: "Dmitry Tonkonog"
+      license: "CC BY-SA 3.0"
+      license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+      url: "https://commons.wikimedia.org/wiki/File:20130808_Kings_College_Chapel_01.jpg"
+      modified: "ridimensionata"
     name: University of Cambridge
     city: Cambridge
     departments: [Engineering]
@@ -176,7 +196,12 @@ universities:
 
   - id: Imperial
     photo: img/campus/imperial.jpg
-    photo_credit: null
+    photo_credit:
+      author: "Chris Sampson"
+      license: "CC BY 2.0"
+      license_url: "https://creativecommons.org/licenses/by/2.0"
+      url: "https://commons.wikimedia.org/wiki/File:Queen%27s_Tower,_Imperial_College_London.jpg"
+      modified: "ridimensionata e ritagliata"
     name: Imperial College London
     city: Londra
     departments: [Aeronautics, Mechanical Engineering]
@@ -227,7 +252,12 @@ universities:
 
   - id: MIT
     photo: img/campus/mit.jpg
-    photo_credit: null
+    photo_credit:
+      author: "Peacearth"
+      license: "CC BY-SA 4.0"
+      license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+      url: "https://commons.wikimedia.org/wiki/File:Great_dome_of_MIT,_Feb_2021_(2)_(cropped).jpg"
+      modified: "ridimensionata"
     name: MIT
     city: Cambridge (MA)
     departments: [AeroAstro, MechE]
@@ -273,7 +303,12 @@ universities:
 
   - id: Harvard
     photo: img/campus/harvard.jpg
-    photo_credit: null
+    photo_credit:
+      author: "Marco Almbauer"
+      license: "Public domain"
+      license_url: null
+      url: "https://commons.wikimedia.org/wiki/File:Harvard_Yard_im_Sommer.jpg"
+      modified: "ridimensionata"
     name: Harvard University
     city: Cambridge (MA)
     departments: [SEAS — Materials Science & Mechanical Engineering]
@@ -295,7 +330,12 @@ universities:
 
   - id: Stanford
     photo: img/campus/stanford.jpg
-    photo_credit: null
+    photo_credit:
+      author: "King of Hearts"
+      license: "CC BY-SA 3.0"
+      license_url: "https://creativecommons.org/licenses/by-sa/3.0"
+      url: "https://commons.wikimedia.org/wiki/File:Stanford_University_Main_Quad_May_2011_002.jpg"
+      modified: "ridimensionata"
     name: Stanford University
     city: Stanford (CA)
     departments: [Aeronautics & Astronautics]
@@ -331,7 +371,12 @@ universities:
 
   - id: Caltech
     photo: img/campus/caltech.jpg
-    photo_credit: null
+    photo_credit:
+      author: "Yisong Yue"
+      license: "CC BY-SA 2.0"
+      license_url: "https://creativecommons.org/licenses/by-sa/2.0"
+      url: "https://commons.wikimedia.org/wiki/File:Beckman_Auditorium_(17521897582).jpg"
+      modified: "ridimensionata e ritagliata"
     name: Caltech
     city: Pasadena (CA)
     departments: [Aerospace (ex GALCIT)]
