@@ -29,4 +29,5 @@ jobs:
           git config user.email "radar-bot@users.noreply.github.com"
           git add -f data/radar.sqlite docs/data
           git commit -m "radar: dati $(date -u +%F_%H%M)" || echo "nessuna modifica"
+          git pull --rebase -q origin main
           git push
