@@ -29,82 +29,153 @@ keywords:
 
 phd_markers: ["phd", "ph.d", "doctoral", "doctorate", "dphil", "studentship"]
 
+# Verifica 2026-10-18 (UA "RadarPhD", robots.txt rispettato). Bloccati da anti-bot (403/Cloudflare),
+# NON aggirati: ox.ac.uk, postgraduate.study.cam.ac.uk, jobs.cam.ac.uk, eng.cam.ac.uk/.../phd-studentships,
+# seas.harvard.edu, gsas.harvard.edu, galcit.caltech.edu, gradoffice.caltech.edu, mae.princeton.edu,
+# gradschool.princeton.edu, findaphd.com. robots.txt vieta: mce.caltech.edu, careers.epfl.ch/services/rss.
 sources:
   - uni: ETH
-    name: Portale lavoro ETH (posizioni dottorato)
+    name: Portale lavoro ETH (tutte le posizioni, incl. dottorato)
     url: https://jobs.ethz.ch/
     type: listing
-    verified: false
+    selector: main
+    verified: true
 
   - uni: ETH
-    name: Dottorato D-MAVT
-    url: https://mavt.ethz.ch/
+    name: Dottorato ETH (amministrazione dottorale)
+    url: https://ethz.ch/en/doctorate.html   # mavt.ethz.ch non ha una pagina dottorato propria
     type: info
-    verified: false
+    selector: "#content"
+    verified: true
 
   - uni: EPFL
-    name: Scuola dottorale EDME
-    url: https://www.epfl.ch/education/phd/edme-mechanical-engineering/
-    type: info
-    verified: false
-
-  - uni: EPFL
-    name: Offerte di lavoro EPFL
-    url: https://www.epfl.ch/about/working/
+    name: Offerte EPFL — PhD Student
+    url: https://careers.epfl.ch/go/PhD-Student/505174/   # 15 risultati per pagina
     type: listing
-    verified: false
+    selector: "#searchresults"
+    verified: true
+
+  - uni: EPFL
+    name: Scuola dottorale EDME (Mechanics)
+    url: https://www.epfl.ch/education/phd/edme-mechanics/
+    type: info
+    selector: main
+    verified: true
+
+  - uni: EPFL
+    name: Ammissione PhD EPFL (criteri e scadenze)
+    url: https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/
+    type: info
+    selector: main
+    verified: true
 
   - uni: Oxford
-    name: DPhil Engineering Science
-    url: https://www.ox.ac.uk/admissions/graduate/courses/dphil-engineering-science
+    name: Research studentships Engineering Science
+    url: https://eng.ox.ac.uk/study/research-studentships
+    type: listing   # link "Research studentship in ..." senza parola chiave: serve parser (Task 2)
+    selector: main
+    verified: true
+
+  - uni: Oxford
+    name: Posti vacanti Engineering Science
+    url: https://eng.ox.ac.uk/jobs/
+    type: listing
+    selector: main
+    verified: true
+
+  - uni: Oxford
+    name: DPhil — candidature Engineering Science
+    url: https://eng.ox.ac.uk/study/postgraduate/applications/   # ox.ac.uk/admissions bloccato (403)
     type: info
-    verified: false
+    selector: main
+    verified: true
 
   - uni: Cambridge
     name: PhD in Engineering
-    url: https://www.postgraduate.study.cam.ac.uk/
+    url: https://www.eng.cam.ac.uk/postgraduates/postgraduate-courses/phd-engineering
     type: info
-    verified: false
+    selector: article
+    verified: true
+
+  - uni: Cambridge
+    name: Funding opportunities for applicants
+    url: https://www.eng.cam.ac.uk/postgraduates/funding-opportunities-applicants
+    type: info
+    selector: article
+    verified: true
 
   - uni: Imperial
-    name: PhD Aeronautics
-    url: https://www.imperial.ac.uk/aeronautics/
+    name: Current PhD studentships — Mechanical Engineering
+    url: https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/
+    type: listing
+    selector: main
+    verified: true
+
+  - uni: Imperial
+    name: PhD opportunities and funding — Aeronautics
+    url: https://www.imperial.ac.uk/aeronautics/study/phd/phd-opportunities-and-funding/
+    type: listing
+    selector: main
+    verified: true
+
+  - uni: Imperial
+    name: PhD application process — Aeronautics
+    url: https://www.imperial.ac.uk/aeronautics/study/phd/application-process/
     type: info
-    verified: false
+    selector: main
+    verified: true
 
   - uni: MIT
-    name: AeroAstro graduate admissions
-    url: https://aeroastro.mit.edu/
+    name: AeroAstro graduate admission
+    url: https://aeroastro.mit.edu/education/graduate-admission/
     type: info
-    verified: false
+    selector: article
+    verified: true
+
+  - uni: MIT
+    name: MechE graduate admissions
+    url: https://meche.mit.edu/education/prospective-students/graduate
+    type: info
+    selector: .region-content
+    verified: true
 
   - uni: Harvard
     name: SEAS graduate admissions
-    url: https://seas.harvard.edu/
+    url: https://seas.harvard.edu/prospective-students/prospective-graduate-students
     type: info
-    verified: false
+    verified: false   # 403 anti-bot (anche gsas.harvard.edu): nessuna alternativa pubblica trovata
 
   - uni: Stanford
-    name: Aeronautics & Astronautics admissions
-    url: https://aa.stanford.edu/
+    name: Aeronautics & Astronautics PhD admissions
+    url: https://aa.stanford.edu/academics-admissions/graduate-admissions/phd-admissions
     type: info
-    verified: false
+    selector: main
+    verified: true
 
   - uni: Caltech
-    name: GALCIT
-    url: https://www.galcit.caltech.edu/
+    name: Aerospace (ex GALCIT) graduate admissions
+    url: https://aerospace.caltech.edu/academics/admissions   # galcit.caltech.edu bloccato (Cloudflare)
     type: info
-    verified: false
+    selector: main
+    verified: true
 
   - uni: Princeton
     name: MAE graduate program
-    url: https://mae.princeton.edu/
+    url: https://mae.princeton.edu/graduate
     type: info
-    verified: false
+    verified: false   # 403 Cloudflare su tutto princeton.edu: nessuna alternativa pubblica trovata
 
-  # Aggregatori utili per UK (studentship): da valutare
+  # Aggregatore UK (sostituisce FindAPhD, bloccato da Cloudflare). Ordinati per data.
   - uni: UK
-    name: FindAPhD (filtro aerospace)
-    url: https://www.findaphd.com/
+    name: jobs.ac.uk — PhD aerospace
+    url: https://www.jobs.ac.uk/search/?keywords=phd+aerospace&sortOrder=1&pageSize=25&startIndex=1
     type: listing
-    verified: false
+    selector: "#job-listings"
+    verified: true
+
+  - uni: UK
+    name: jobs.ac.uk — PhD mechanical engineering
+    url: https://www.jobs.ac.uk/search/?keywords=phd+mechanical+engineering&sortOrder=1&pageSize=25&startIndex=1
+    type: listing
+    selector: "#job-listings"
+    verified: true
