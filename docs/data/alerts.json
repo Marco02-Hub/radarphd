@@ -1,5 +1,12 @@
 [
  {
+  "kind": "page_changed",
+  "uni": "MIT",
+  "text": "MIT: pagina modificata — MechE graduate admissions",
+  "url": "https://meche.mit.edu/education/prospective-students/graduate",
+  "created_at": "2026-10-18T22:33:26+00:00"
+ },
+ {
   "kind": "new_position",
   "uni": "UK",
   "text": "Nuova posizione UK: PhD Studentship - Dynamic Performance and AI-Driven Optimisation of Hybrid Energy Systems for Net Zero",
