@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Radar PhD</title>
+  <meta name="description" content="Posizioni di dottorato in ingegneria meccanica e aerospaziale: scadenze, candidatura, contatti.">
+  <meta name="theme-color" content="#F2F4F6">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Radar PhD">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="app">
+    <main id="view" tabindex="-1" aria-live="polite"></main>
+    <nav class="tabbar" aria-label="Sezioni">
+      <a href="#/" data-tab="radar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="M12 12l6-6"/><circle cx="12" cy="12" r="1" class="fill"/></svg>
+        <span>Radar</span>
+      </a>
+      <a href="#/atenei" data-tab="atenei">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10l9-6 9 6"/><path d="M5 10v9M9.5 10v9M14.5 10v9M19 10v9M3 20h18"/></svg>
+        <span>Atenei</span>
+      </a>
+      <a href="#/avvisi" data-tab="avvisi">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16V11a6 6 0 1112 0v5l2 2H4l2-2z"/><path d="M10 20a2 2 0 004 0"/></svg>
+        <span>Avvisi</span><i class="dot" hidden></i>
+      </a>
+    </nav>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

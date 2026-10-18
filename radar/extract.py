@@ -20,6 +20,8 @@ _DMY = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]{3,9})\.?\s+(\d{4})\b
 _MDY = re.compile(r"\b([A-Za-z]{3,9})\.?\s+(\d{1,2})(?:st|nd|rd|th)?,\s*(\d{4})\b")
 # Titoli che non sono posizioni di dottorato anche se citano "PhD" (es. "PhD required").
 NOT_PHD_TITLE = re.compile(r"post-?doc|research (assistant|associate|fellow)|lecturer|professor", re.I)
+# Testi di link che sono un indirizzo, non il titolo di un annuncio.
+_NOT_A_TITLE = re.compile(r"^(https?://|www\.)|^\S+@\S+$", re.I)
 _ISO = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b")
 _DEADLINE_HINT = re.compile(r"(deadline|closing date|apply by|application[s]? close)", re.I)
 
@@ -83,7 +85,9 @@ def find_candidates(html: str, source: Source, keywords: list[str], markers: lis
     out: list[Candidate] = []
     for a in root.find_all("a", href=True):
         title = a.get_text(" ", strip=True)
-        if len(title) < 12 or NOT_PHD_TITLE.search(title):
+        if len(title) < 12 or NOT_PHD_TITLE.search(title) or _NOT_A_TITLE.search(title):
+            continue
+        if a["href"].lower().startswith(("mailto:", "tel:", "javascript:")):
             continue
         block = a.find_parent(["li", "article", "tr", "div"]) or a
         context = re.sub(r"\s+", " ", block.get_text(" ", strip=True))[:600]

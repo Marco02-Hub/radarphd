@@ -71,6 +71,9 @@ def run_once(con: sqlite3.Connection | None = None, fetcher=fetch) -> list[Alert
         if html is None:
             continue
         if src.type == "listing":
+            ts = db.now()
+            con.execute("INSERT INTO pages VALUES (?,?,?,?,?) ON CONFLICT(url) DO UPDATE SET last_checked = ?",
+                        (src.url, src.uni, text_hash(page_text(html, src.selector)), ts, ts, ts))
             for c in parser_for(src)(html, src, keywords, markers):
                 if _upsert_candidate(con, c):
                     alerts.append(Alert("new_position", c.uni, f"Nuova posizione {c.uni}: {c.title}", c.url))

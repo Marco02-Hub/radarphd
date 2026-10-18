@@ -32,7 +32,7 @@ Stato utente (posizioni salvate, parole chiave scelte, avvisi letti) = `localSto
 | `config/universities.yaml` | modello di candidatura, passi, contatti, foto campus per ateneo |
 | `design/SCREENS.md` | **spec delle 5 schermate: leggi questa, non serve altro per la UI** |
 | `design/tokens.json` | colori, font, raggi |
-| `docs/` | (da creare) la PWA |
+| `docs/` | la PWA (`index.html`, `app.css`, `app.js`, `sw.js`, `manifest.webmanifest`, `icons/`, `img/campus/`) |
 
 ## Task (in ordine, uno alla volta; `pytest` verde e commit dopo ognuno)
 1. **Fonti.** Verifica ogni URL di `sources.yaml` (apri la pagina, controlla che esista e che riguardi PhD meccanica/aero). Correggi, imposta `verified: true`, aggiungi `selector` dove la pagina è rumorosa. Per le pagine che caricano gli annunci via JavaScript cerca un endpoint JSON/RSS pubblico; se non c'è, segnalo e passa oltre.

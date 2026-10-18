@@ -27,8 +27,18 @@ def to_telegram(alerts: list[Alert]) -> None:
     token, chat = os.getenv("RADAR_TELEGRAM_TOKEN"), os.getenv("RADAR_TELEGRAM_CHAT_ID")
     if not (token and chat and alerts):
         return
-    httpx.post(f"https://api.telegram.org/bot{token}/sendMessage",
-               json={"chat_id": chat, "text": "Radar PhD\n\n" + _format(alerts)}, timeout=20)
+    # Telegram accetta al massimo 4096 caratteri per messaggio: si spezza per avvisi interi
+    chunks, cur = [], "Radar PhD\n"
+    for a in alerts:
+        line = "\n" + _format([a])
+        if len(cur) + len(line) > 4000:
+            chunks.append(cur)
+            cur = "Radar PhD (segue)\n"
+        cur += line
+    chunks.append(cur)
+    for text in chunks:
+        httpx.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                   json={"chat_id": chat, "text": text, "disable_web_page_preview": True}, timeout=20)
 
 
 def to_email(alerts: list[Alert]) -> None:

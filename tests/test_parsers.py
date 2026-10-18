@@ -66,3 +66,20 @@ def test_closing_date_year_rollover():
     assert closing_date("Closes 15 Nov", date(2026, 10, 18)) == date(2026, 11, 15)
     assert closing_date("Closes 06 Jan", date(2026, 10, 18)) == date(2027, 1, 6)
     assert closing_date("Date Placed: 13 Oct", date(2026, 10, 18)) is None
+
+
+def test_imperial_meche_tabs():
+    src = Source(uni="Imperial", name="t", type="listing",
+                 url="https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/")
+    out = parser_for(src)(_html("imperial_meche_studentships.html"), src, KW, MK)
+    assert len(out) == 22
+    assert all("studentship" in c.title.lower() for c in out)
+    assert out[0].url.startswith(src.url + "#tabpanel_")
+    assert len({c.url for c in out}) == 22
+
+
+def test_generic_skips_email_and_url_links():
+    html = """<div><p>PhD studentship in fluid dynamics, contact
+      <a href="mailto:a.b@x.ac.uk">a.b@x.ac.uk</a> or see <a href="https://x.ac.uk/fluids">https://x.ac.uk/fluids</a></p></div>"""
+    src = Source(uni="Imperial", name="t", url="https://x.ac.uk/", type="listing")
+    assert find_candidates(html, src, KW, MK) == []

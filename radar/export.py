@@ -1,6 +1,7 @@
 """Esporta il DB in JSON statici letti dalla web app (docs/data/*.json, servita da GitHub Pages)."""
 from __future__ import annotations
 
+import hashlib
 import json
 import sqlite3
 from pathlib import Path
@@ -22,9 +23,10 @@ def export(con: sqlite3.Connection, out_dir: Path = OUT_DIR) -> None:
         "SELECT url, uni, title, snippet, deadline, keywords, source_url, first_seen, last_checked"
         " FROM positions WHERE active = 1 ORDER BY first_seen DESC")]
     for p in positions:
+        p["id"] = hashlib.sha1(p["url"].encode("utf-8")).hexdigest()[:10]  # per la rotta #/p/<id>
         p["keywords"] = [k for k in (p["keywords"] or "").split(",") if k]
 
-    sources, _, _ = load_sources()
+    sources, keywords, _ = load_sources()
     unis = []
     for u in load_universities():
         u = dict(u)
@@ -42,4 +44,4 @@ def export(con: sqlite3.Connection, out_dir: Path = OUT_DIR) -> None:
     _write(out_dir / "positions.json", positions)
     _write(out_dir / "universities.json", unis)
     _write(out_dir / "alerts.json", alerts)
-    _write(out_dir / "meta.json", {"updated_at": db.now()})
+    _write(out_dir / "meta.json", {"updated_at": db.now(), "keywords": keywords})
