@@ -1,0 +1,638 @@
+[
+ {
+  "id": "ETH",
+  "photo": "img/campus/eth.jpg",
+  "photo_credit": {
+   "author": "Leonhard Lenz",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "url": "https://commons.wikimedia.org/wiki/File:Hauptgeb%C3%A4ude_der_ETH_Z%C3%BCrich_and_Polyterrasse_2022-09-24_01.jpg",
+   "modified": "ridimensionata e ritagliata"
+  },
+  "name": "ETH Zürich",
+  "city": "Zurigo",
+  "departments": [
+   "D-MAVT"
+  ],
+  "model": "direct",
+  "rolling": true,
+  "summary": "Salvo eccezioni, i dottorandi ETH sono assunti come assistenti scientifici presso un professore: ci si candida a una posizione aperta, non a un bando unico. Il progetto si svolge in autonomia con il supporto del professore e termina con tesi ed esame orale (titolo Dr. sc. ETH Zurich).",
+  "summary_source": "https://ethz.ch/en/doctorate.html",
+  "steps": [
+   "Cerca una posizione di dottorato sul portale lavoro ETH o sulla pagina del gruppo di ricerca",
+   "Candidati direttamente all'annuncio (assunzione come assistente scientifico)",
+   "Con l'assunzione, iscrizione al dottorato presso la Doctoral Administration (vedi guida al dottorato)"
+  ],
+  "steps_source": "https://ethz.ch/en/doctorate.html",
+  "prepare": [],
+  "deadlines": [
+   {
+    "label": "Ogni annuncio ha la propria scadenza",
+    "date": null,
+    "recurring": null,
+    "source": "https://jobs.ethz.ch/"
+   }
+  ],
+  "contacts": [
+   {
+    "role": "Doctoral Administration (Academic Services)",
+    "name": null,
+    "email": "doktorat@ethz.ch",
+    "phone": "+41 44 632 26 72",
+    "url": "https://ethz.ch/en/doctorate.html",
+    "source": "https://ethz.ch/en/doctorate.html"
+   }
+  ],
+  "verified": true,
+  "open_count": 4,
+  "sources": [
+   {
+    "name": "Portale lavoro ETH (tutte le posizioni, incl. dottorato)",
+    "url": "https://jobs.ethz.ch/",
+    "type": "listing",
+    "last_checked": "2026-10-18T21:57:15+00:00"
+   },
+   {
+    "name": "Dottorato ETH (amministrazione dottorale)",
+    "url": "https://ethz.ch/en/doctorate.html",
+    "type": "info",
+    "last_checked": "2026-10-18T21:57:15+00:00"
+   }
+  ]
+ },
+ {
+  "id": "EPFL",
+  "photo": "img/campus/epfl.jpg",
+  "photo_credit": {
+   "author": "Guilhem Vellut from Annecy, France",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:EPFL_Rolex_Learning_Center_@_EPFL_@_Lausanne_(36749824932).jpg",
+   "modified": "ridimensionata"
+  },
+  "name": "EPFL",
+  "city": "Losanna",
+  "departments": [
+   "EDME (Mechanics)"
+  ],
+  "model": "doctoral_school",
+  "rolling": false,
+  "summary": "Si fa domanda a un programma dottorale (per meccanica: EDME) entro le sue scadenze. Alcuni laboratori pubblicano posizioni su progetti specifici, ma per accedervi bisogna comunque essere ammessi al programma. L'iscrizione definitiva richiede tema di tesi, supervisore e finanziamento.",
+  "summary_source": "https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/",
+  "steps": [
+   "Scegli il programma dottorale e controlla requisiti e procedure sulla sua pagina",
+   "Compila il modulo online (dati personali, percorso accademico, programma, contatti di 3 referenti)",
+   "Carica i PDF richiesti; i referenti ricevono l'invito e inviano le lettere online entro la scadenza",
+   "Una commissione valuta il dossier, tenendo conto anche del tema e dei supervisori indicati",
+   "Se ammesso, iscrizione alla scuola dottorale entro un anno (visti e permessi richiedono circa 3 mesi)"
+  ],
+  "steps_source": "https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/",
+  "prepare": [
+   "Diplomi e voti di tutti gli studi universitari (in inglese, francese, tedesco o italiano)",
+   "Statement of objectives",
+   "Copia del passaporto o documento d'identità",
+   "Contatti di 3 referenti (avvisali in anticipo)"
+  ],
+  "deadlines": [
+   {
+    "label": "EDME — scadenza di primavera",
+    "date": null,
+    "recurring": "04-15",
+    "source": "https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/application-deadlines/"
+   },
+   {
+    "label": "EDME — scadenza d'inverno",
+    "date": null,
+    "recurring": "12-15",
+    "source": "https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/application-deadlines/"
+   }
+  ],
+  "contacts": [
+   {
+    "role": "Programma dottorale EDME",
+    "name": null,
+    "email": "edme@epfl.ch",
+    "url": "https://www.epfl.ch/education/phd/edme-mechanics/",
+    "source": "https://www.epfl.ch/education/phd/edme-mechanics/"
+   },
+   {
+    "role": "Direttore EDME",
+    "name": "Prof. Tobias Schneider",
+    "email": null,
+    "url": "https://www.epfl.ch/education/phd/edme-mechanics/",
+    "source": "https://www.epfl.ch/education/phd/edme-mechanics/"
+   },
+   {
+    "role": "Amministrazione EDME",
+    "name": "Martina Keddouh",
+    "email": null,
+    "url": "https://www.epfl.ch/education/phd/edme-mechanics/",
+    "source": "https://www.epfl.ch/education/phd/edme-mechanics/"
+   }
+  ],
+  "verified": true,
+  "open_count": 4,
+  "sources": [
+   {
+    "name": "Offerte EPFL — PhD Student",
+    "url": "https://careers.epfl.ch/go/PhD-Student/505174/",
+    "type": "listing",
+    "last_checked": "2026-10-18T21:57:16+00:00"
+   },
+   {
+    "name": "Scuola dottorale EDME (Mechanics)",
+    "url": "https://www.epfl.ch/education/phd/edme-mechanics/",
+    "type": "info",
+    "last_checked": "2026-10-18T21:57:17+00:00"
+   },
+   {
+    "name": "Ammissione PhD EPFL (criteri e scadenze)",
+    "url": "https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/",
+    "type": "info",
+    "last_checked": "2026-10-18T21:57:22+00:00"
+   }
+  ]
+ },
+ {
+  "id": "Oxford",
+  "photo": "img/campus/oxford.jpg",
+  "photo_credit": {
+   "author": "Julian Herzog (Website)",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera_Oxford_2018_02.jpg",
+   "modified": "ridimensionata"
+  },
+  "name": "University of Oxford",
+  "city": "Oxford",
+  "departments": [
+   "Engineering Science"
+  ],
+  "model": "uk_admission",
+  "rolling": false,
+  "summary": "Si fa domanda di ammissione al DPhil in Engineering Science tramite il sito centrale dell'Università. Di solito si viene ammessi su temi di docenti già presenti: conviene contattare prima il potenziale supervisore. Le studentship finanziate del dipartimento sono pubblicate su una pagina dedicata.",
+  "summary_source": "https://eng.ox.ac.uk/study/postgraduate/courses",
+  "steps": [
+   "Studia le aree di ricerca del dipartimento e dei potenziali supervisori",
+   "Contatta direttamente il docente, o scrivi a postgraduate.admissions@eng.ox.ac.uk per progetti specifici",
+   "Fai domanda per il DPhil tramite il sito centrale dell'Università di Oxford",
+   "Nella domanda indica argomenti di ricerca il più possibile specifici, non aree generiche",
+   "Per il finanziamento controlla le Research Studentships del dipartimento"
+  ],
+  "steps_source": "https://eng.ox.ac.uk/study/postgraduate/courses",
+  "prepare": [],
+  "deadlines": [
+   {
+    "label": "Research Studentships Engineering Science",
+    "date": "2026-12-02",
+    "recurring": null,
+    "source": "https://eng.ox.ac.uk/study/research-studentships"
+   }
+  ],
+  "contacts": [
+   {
+    "role": "Postgraduate admissions, Engineering Science",
+    "name": null,
+    "email": "postgraduate.admissions@eng.ox.ac.uk",
+    "url": "https://eng.ox.ac.uk/study/postgraduate/courses",
+    "source": "https://eng.ox.ac.uk/study/postgraduate/courses"
+   }
+  ],
+  "verified": true,
+  "open_count": 7,
+  "sources": [
+   {
+    "name": "Research studentships Engineering Science",
+    "url": "https://eng.ox.ac.uk/study/research-studentships",
+    "type": "listing",
+    "last_checked": "2026-10-18T21:57:23+00:00"
+   },
+   {
+    "name": "Posti vacanti Engineering Science",
+    "url": "https://eng.ox.ac.uk/jobs/",
+    "type": "listing",
+    "last_checked": "2026-10-18T21:57:28+00:00"
+   },
+   {
+    "name": "DPhil — candidature Engineering Science",
+    "url": "https://eng.ox.ac.uk/study/postgraduate/applications/",
+    "type": "info",
+    "last_checked": "2026-10-18T21:57:33+00:00"
+   }
+  ]
+ },
+ {
+  "id": "Cambridge",
+  "photo": "img/campus/cambridge.jpg",
+  "photo_credit": {
+   "author": "Dmitry Tonkonog",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:20130808_Kings_College_Chapel_01.jpg",
+   "modified": "ridimensionata"
+  },
+  "name": "University of Cambridge",
+  "city": "Cambridge",
+  "departments": [
+   "Engineering"
+  ],
+  "model": "uk_admission",
+  "rolling": true,
+  "summary": "Domanda online sul portale Postgraduate Admissions per il PhD in Engineering, indicando almeno un potenziale supervisore. Le domande sono valutate in modo continuativo durante l'anno, ma le scadenze per il finanziamento (Cambridge Trusts) sono molto anticipate.",
+  "summary_source": "https://www.eng.cam.ac.uk/postgraduates/applying-postgraduate-study/applying-research-courses",
+  "steps": [
+   "Individua nei gruppi di ricerca un docente adatto come supervisore (leggi i suoi articoli recenti)",
+   "Contattalo prima di candidarti per discutere le idee di ricerca (consigliato, non obbligatorio)",
+   "Domanda online sul portale Postgraduate Admissions, indicando almeno un supervisore o un gruppo",
+   "La domanda completa (con 2 referenze) viene valutata dal supervisore; possibile colloquio",
+   "Approvazione della divisione, poi Degree Committee e Postgraduate Admissions Office; offerta via email"
+  ],
+  "steps_source": "https://www.eng.cam.ac.uk/postgraduates/applying-postgraduate-study/applying-research-courses",
+  "prepare": [
+   "Contatti di 2 referenti accademici",
+   "Transcript di tutti i titoli universitari",
+   "CV",
+   "Reasons for applying (2500 caratteri)",
+   "Research proposal (facoltativa)",
+   "Certificazione di inglese, se richiesta"
+  ],
+  "deadlines": [
+   {
+    "label": "Finanziamento Cambridge Trusts (anno 2026/27)",
+    "date": "2025-12-02",
+    "recurring": null,
+    "source": "https://www.eng.cam.ac.uk/postgraduates/applying-postgraduate-study/applying-research-courses"
+   },
+   {
+    "label": "Domanda per inizio ottobre 2026",
+    "date": "2026-05-14",
+    "recurring": null,
+    "source": "https://www.eng.cam.ac.uk/postgraduates/applying-postgraduate-study/applying-research-courses"
+   },
+   {
+    "label": "Domanda per inizio gennaio 2027",
+    "date": "2026-07-30",
+    "recurring": null,
+    "source": "https://www.eng.cam.ac.uk/postgraduates/applying-postgraduate-study/applying-research-courses"
+   }
+  ],
+  "contacts": [
+   {
+    "role": "Engineering Graduate Studies Office (ammissioni)",
+    "name": null,
+    "email": "pg-admissions@eng.cam.ac.uk",
+    "url": "https://www.eng.cam.ac.uk/postgraduates/applying-postgraduate-study/applying-research-courses",
+    "source": "https://www.eng.cam.ac.uk/postgraduates/applying-postgraduate-study/applying-research-courses"
+   }
+  ],
+  "verified": true,
+  "open_count": 0,
+  "sources": [
+   {
+    "name": "PhD in Engineering",
+    "url": "https://www.eng.cam.ac.uk/postgraduates/postgraduate-courses/phd-engineering",
+    "type": "info",
+    "last_checked": "2026-10-18T21:57:34+00:00"
+   },
+   {
+    "name": "Funding opportunities for applicants",
+    "url": "https://www.eng.cam.ac.uk/postgraduates/funding-opportunities-applicants",
+    "type": "info",
+    "last_checked": "2026-10-18T21:57:39+00:00"
+   }
+  ]
+ },
+ {
+  "id": "Imperial",
+  "photo": "img/campus/imperial.jpg",
+  "photo_credit": {
+   "author": "Chris Sampson",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Queen%27s_Tower,_Imperial_College_London.jpg",
+   "modified": "ridimensionata e ritagliata"
+  },
+  "name": "Imperial College London",
+  "city": "Londra",
+  "departments": [
+   "Aeronautics",
+   "Mechanical Engineering"
+  ],
+  "model": "uk_admission",
+  "rolling": true,
+  "summary": "Domande di PhD tutto l'anno, ma conviene candidarsi circa un anno prima dell'inizio (ottobre). Prima della domanda bisogna accordarsi con un supervisore: in Mechanical Engineering le domande senza il supporto di un supervisore indicato non vengono processate.",
+  "summary_source": "https://www.imperial.ac.uk/aeronautics/study/phd/application-process/",
+  "steps": [
+   "Verifica i requisiti d'ingresso (di norma laurea 2:1 o 1st o equivalente, più requisiti di inglese)",
+   "Individua temi e supervisori nelle pagine del personale del dipartimento",
+   "Contatta il supervisore per discutere il progetto e ottenerne il supporto",
+   "Domanda sul sistema online di Imperial indicando tema, supervisore ed eventuale finanziamento richiesto",
+   "Colloquio con il supervisore; decisione di solito entro 8–10 settimane (tracciabile su e-Service)"
+  ],
+  "steps_source": "https://www.imperial.ac.uk/aeronautics/study/phd/application-process/",
+  "prepare": [
+   "CV di massimo 2 pagine (con pubblicazioni, se presenti)",
+   "Research proposal / personal statement di massimo 2 pagine (non serve per una studentship già pubblicata)",
+   "Contatti di 2 referenti accademici (non da email personali)"
+  ],
+  "deadlines": [
+   {
+    "label": "Borse — primo round per domande inviate entro inizio novembre",
+    "date": null,
+    "recurring": null,
+    "source": "https://www.imperial.ac.uk/aeronautics/study/phd/application-process/"
+   },
+   {
+    "label": "Borse — consigliato candidarsi entro la scadenza di gennaio",
+    "date": null,
+    "recurring": null,
+    "source": "https://www.imperial.ac.uk/aeronautics/study/phd/application-process/"
+   }
+  ],
+  "contacts": [
+   {
+    "role": "PhD Administrator (Admissions), Aeronautics",
+    "name": "Ms Lisa Kelly",
+    "email": "l.kelly@imperial.ac.uk",
+    "url": "https://www.imperial.ac.uk/aeronautics/study/phd/phd-opportunities-and-funding/",
+    "source": "https://www.imperial.ac.uk/aeronautics/study/phd/phd-opportunities-and-funding/"
+   },
+   {
+    "role": "Director of Postgraduate Studies (PhD), Aeronautics",
+    "name": "Prof Zahra Sharif-Khodaei",
+    "email": "z.sharif-khodaei@imperial.ac.uk",
+    "url": "https://www.imperial.ac.uk/aeronautics/study/phd/phd-opportunities-and-funding/",
+    "source": "https://www.imperial.ac.uk/aeronautics/study/phd/phd-opportunities-and-funding/"
+   },
+   {
+    "role": "Postgraduate Administrator, Mechanical Engineering",
+    "name": null,
+    "email": "kate.lewis@imperial.ac.uk",
+    "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/how-to-apply/",
+    "source": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/how-to-apply/"
+   }
+  ],
+  "verified": true,
+  "open_count": 23,
+  "sources": [
+   {
+    "name": "Current PhD studentships — Mechanical Engineering",
+    "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
+    "type": "listing",
+    "last_checked": "2026-10-18T21:57:41+00:00"
+   },
+   {
+    "name": "PhD opportunities and funding — Aeronautics",
+    "url": "https://www.imperial.ac.uk/aeronautics/study/phd/phd-opportunities-and-funding/",
+    "type": "listing",
+    "last_checked": "2026-10-18T21:57:46+00:00"
+   },
+   {
+    "name": "PhD application process — Aeronautics",
+    "url": "https://www.imperial.ac.uk/aeronautics/study/phd/application-process/",
+    "type": "info",
+    "last_checked": "2026-10-18T21:57:51+00:00"
+   }
+  ]
+ },
+ {
+  "id": "MIT",
+  "photo": "img/campus/mit.jpg",
+  "photo_credit": {
+   "author": "Peacearth",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Great_dome_of_MIT,_Feb_2021_(2)_(cropped).jpg",
+   "modified": "ridimensionata"
+  },
+  "name": "MIT",
+  "city": "Cambridge (MA)",
+  "departments": [
+   "AeroAstro",
+   "MechE"
+  ],
+  "model": "us_department",
+  "rolling": false,
+  "summary": "Si fa domanda al singolo dipartimento, un ciclo all'anno (apertura a settembre, ingresso in autunno, niente ammissione primaverile). In AeroAstro chi ha solo la laurea triennale entra nel Master e accede al PhD superando il Qualifying Process.",
+  "summary_source": "https://aeroastro.mit.edu/education/graduate-admission/",
+  "steps": [
+   "Domanda online sul portale del dipartimento (AeroAstro o MechE); niente allegati via email",
+   "Statement of Objectives, transcript di ogni ateneo frequentato, 3 lettere di referenza online",
+   "Test di inglese se non madrelingua (MechE — IELTS 7.0, TOEFL 100 iBT o DET 135); GRE non richiesto",
+   "Valutazione da parte del comitato di ammissione del dipartimento"
+  ],
+  "steps_source": "https://meche.mit.edu/education/prospective-students/graduate/apply",
+  "prepare": [
+   "Statement of Objectives",
+   "Transcript (ufficiali o non ufficiali; ufficiali richiesti dopo l'ammissione)",
+   "3 lettere di referenza, preferibilmente da docenti con cui hai fatto ricerca",
+   "IELTS / TOEFL / DET se richiesto"
+  ],
+  "deadlines": [
+   {
+    "label": "MechE — domanda per settembre 2027",
+    "date": "2026-12-01",
+    "recurring": null,
+    "source": "https://meche.mit.edu/education/prospective-students/graduate/apply"
+   },
+   {
+    "label": "AeroAstro — domanda completa (ogni anno, 23:59 ET)",
+    "date": null,
+    "recurring": "12-01",
+    "source": "https://aeroastro.mit.edu/education/graduate-admission/"
+   }
+  ],
+  "contacts": [
+   {
+    "role": "AeroAstro Student Services (ammissioni)",
+    "name": null,
+    "email": "aagradinfo@mit.edu",
+    "url": "https://aeroastro.mit.edu/education/graduate-admission/",
+    "source": "https://aeroastro.mit.edu/education/graduate-admission/"
+   },
+   {
+    "role": "MechE Graduate Office",
+    "name": null,
+    "email": "megradoffice@mit.edu",
+    "url": "https://meche.mit.edu/education/prospective-students/graduate/apply",
+    "source": "https://meche.mit.edu/education/prospective-students/graduate/apply"
+   }
+  ],
+  "verified": true,
+  "open_count": 0,
+  "sources": [
+   {
+    "name": "AeroAstro graduate admission",
+    "url": "https://aeroastro.mit.edu/education/graduate-admission/",
+    "type": "info",
+    "last_checked": "2026-10-18T21:57:56+00:00"
+   },
+   {
+    "name": "MechE graduate admissions",
+    "url": "https://meche.mit.edu/education/prospective-students/graduate",
+    "type": "info",
+    "last_checked": "2026-10-18T21:57:58+00:00"
+   }
+  ]
+ },
+ {
+  "id": "Harvard",
+  "photo": "img/campus/harvard.jpg",
+  "photo_credit": {
+   "author": "Marco Almbauer",
+   "license": "Public domain",
+   "license_url": null,
+   "url": "https://commons.wikimedia.org/wiki/File:Harvard_Yard_im_Sommer.jpg",
+   "modified": "ridimensionata"
+  },
+  "name": "Harvard University",
+  "city": "Cambridge (MA)",
+  "departments": [
+   "SEAS — Materials Science & Mechanical Engineering"
+  ],
+  "model": "us_department",
+  "rolling": false,
+  "summary": "La SEAS offre il PhD in Engineering Sciences — Materials Science & Mechanical Engineering, conferito dalla Graduate School of Arts and Sciences (GSAS): la domanda si fa alla GSAS. Le pagine SEAS e GSAS non sono leggibili dal radar (bloccate ai bot), quindi scadenze e contatti vanno controllati a mano.",
+  "summary_source": "https://www.harvard.edu/programs/materials-science-and-mechanical-engineering/",
+  "steps": [
+   "Esplora il programma e le aree di ricerca sulla pagina SEAS Materials Science & Mechanical Engineering",
+   "Fai domanda alla Harvard Griffin GSAS (link \"Apply to GSAS\")"
+  ],
+  "steps_source": "https://www.harvard.edu/programs/materials-science-and-mechanical-engineering/",
+  "prepare": [],
+  "deadlines": [],
+  "contacts": [],
+  "verified": true,
+  "open_count": 0,
+  "sources": [
+   {
+    "name": "PhD Materials Science & Mechanical Engineering (scheda programma)",
+    "url": "https://www.harvard.edu/programs/materials-science-and-mechanical-engineering/",
+    "type": "info",
+    "last_checked": "2026-10-18T21:57:59+00:00"
+   }
+  ]
+ },
+ {
+  "id": "Stanford",
+  "photo": "img/campus/stanford.jpg",
+  "photo_credit": {
+   "author": "King of Hearts",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Stanford_University_Main_Quad_May_2011_002.jpg",
+   "modified": "ridimensionata"
+  },
+  "name": "Stanford University",
+  "city": "Stanford (CA)",
+  "departments": [
+   "Aeronautics & Astronautics"
+  ],
+  "model": "us_department",
+  "rolling": false,
+  "summary": "Un solo ciclo di ammissione al PhD all'anno, con scadenza definitiva. Il Master non è richiesto: chi punta al PhD con la sola laurea è incoraggiato a candidarsi direttamente al PhD.",
+  "summary_source": "https://aa.stanford.edu/academics-admissions/graduate-admissions/phd-admissions",
+  "steps": [
+   "Domanda tramite la Stanford Graduate Admissions Application (tassa 125 $, possibile esenzione)",
+   "Carica statement of purpose, transcript e punteggi del test di inglese se richiesto",
+   "3 lettere di referenza online (almeno una accademica; non tramite Interfolio)",
+   {
+    "La domanda completa deve arrivare entro la scadenza": "dopo non viene accettata"
+   }
+  ],
+  "steps_source": "https://aa.stanford.edu/academics-admissions/graduate-admissions/phd-admissions",
+  "prepare": [
+   {
+    "Statement of purpose, massimo 2 pagine": "obiettivi, visione di ricerca, docenti adatti come advisor"
+   },
+   "Transcript scansionati",
+   "3 lettere di referenza",
+   "TOEFL iBT o IELTS Academic, se non rientri nei casi di esenzione"
+  ],
+  "deadlines": [
+   {
+    "label": "PhD — autunno 2027-28 (domanda completa)",
+    "date": "2026-12-01",
+    "recurring": null,
+    "source": "https://aa.stanford.edu/academics-admissions/graduate-admissions/phd-admissions"
+   }
+  ],
+  "contacts": [
+   {
+    "role": "Ammissioni Aero/Astro",
+    "name": null,
+    "email": "aa-admissions@lists.stanford.edu",
+    "url": "https://aa.stanford.edu/academics-admissions/graduate-admissions/phd-admissions",
+    "source": "https://aa.stanford.edu/academics-admissions/graduate-admissions/phd-admissions"
+   }
+  ],
+  "verified": true,
+  "open_count": 0,
+  "sources": [
+   {
+    "name": "Aeronautics & Astronautics PhD admissions",
+    "url": "https://aa.stanford.edu/academics-admissions/graduate-admissions/phd-admissions",
+    "type": "info",
+    "last_checked": "2026-10-18T21:58:01+00:00"
+   }
+  ]
+ },
+ {
+  "id": "Caltech",
+  "photo": "img/campus/caltech.jpg",
+  "photo_credit": {
+   "author": "Yisong Yue",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "url": "https://commons.wikimedia.org/wiki/File:Beckman_Auditorium_(17521897582).jpg",
+   "modified": "ridimensionata e ritagliata"
+  },
+  "name": "Caltech",
+  "city": "Pasadena (CA)",
+  "departments": [
+   "Aerospace (ex GALCIT)"
+  ],
+  "model": "us_department",
+  "rolling": false,
+  "summary": "Ingresso solo a settembre; la domanda si fa online sul sito Graduate Admissions scegliendo un'area di specializzazione. Ammissione e borse sono valutate separatamente: basta spuntare la richiesta di aiuto finanziario nel modulo.",
+  "summary_source": "https://aerospace.caltech.edu/academics/admissions",
+  "steps": [
+   "Scegli l'area (Autonomous Systems, Fluid Mechanics, Propulsion and Bio-Inspired Design, Solid Mechanics and Materials, Space Engineering)",
+   "Domanda online sul sito Graduate Admissions di Caltech",
+   "Spunta la richiesta di aiuto finanziario per essere considerato per le fellowship",
+   "Le fellowship sono comunicate di solito entro il 15 marzo, con risposta entro il 15 aprile"
+  ],
+  "steps_source": "https://aerospace.caltech.edu/academics/admissions",
+  "prepare": [
+   "TOEFL se l'inglese non è la tua lingua madre",
+   "GRE facoltativo"
+  ],
+  "deadlines": [
+   {
+    "label": "Domanda di ammissione (ogni anno)",
+    "date": null,
+    "recurring": "12-15",
+    "source": "https://aerospace.caltech.edu/academics/admissions"
+   }
+  ],
+  "contacts": [
+   {
+    "role": "Options Manager, Aerospace",
+    "name": "Christine Ramirez",
+    "email": "cramirez@caltech.edu",
+    "url": "https://aerospace.caltech.edu/academics/admissions",
+    "source": "https://aerospace.caltech.edu/academics/admissions"
+   }
+  ],
+  "verified": true,
+  "open_count": 0,
+  "sources": [
+   {
+    "name": "Aerospace (ex GALCIT) graduate admissions",
+    "url": "https://aerospace.caltech.edu/academics/admissions",
+    "type": "info",
+    "last_checked": "2026-10-18T21:58:02+00:00"
+   }
+  ]
+ }
+]
