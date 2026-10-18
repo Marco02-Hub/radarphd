@@ -60,3 +60,14 @@ def test_export_writes_json(tmp_path):
     unis = json.loads((tmp_path / "out" / "universities.json").read_text())
     assert pos[0]["uni"] == "ETH" and pos[0]["keywords"] == ["aeroelastic"]
     assert len(unis) == 9 and next(u for u in unis if u["id"] == "ETH")["open_count"] == 1
+
+
+def test_universities_have_sources():
+    import re
+    from radar.config import load_universities
+    for u in load_universities():
+        assert u["summary_source"].startswith("https://") and u["steps_source"].startswith("https://")
+        for item in u["deadlines"] + u["contacts"]:
+            assert item["source"].startswith("https://"), (u["id"], item)
+        for d in u["deadlines"]:
+            assert d["recurring"] is None or re.fullmatch(r"\d\d-\d\d", d["recurring"])
