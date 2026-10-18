@@ -1,6 +1,6 @@
 # Radar PhD
 
-App personale che monitora le pagine PhD di 10 atenei (EPFL, ETH, Oxford, Cambridge, Imperial, MIT, Harvard, Stanford, Caltech, Princeton) per ing. meccanica/aerospaziale e settori affini, e mostra: posizioni aperte, scadenze, come funziona la candidatura, chi contattare. UI in italiano.
+App personale che monitora le pagine PhD di 9 atenei (EPFL, ETH, Oxford, Cambridge, Imperial, MIT, Harvard, Stanford, Caltech) per ing. meccanica/aerospaziale e settori affini, e mostra: posizioni aperte, scadenze, come funziona la candidatura, chi contattare. UI in italiano.
 
 ## Vincoli (non negoziabili)
 - **Costo zero.** Solo servizi gratuiti: GitHub (repo pubblico, Actions, Pages) e bot Telegram. Niente server, hosting, database, domini o API a pagamento, incluse API di AI e motori di ricerca a pagamento. Se una soluzione richiede una carta di credito, è esclusa.

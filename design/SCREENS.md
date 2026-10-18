@@ -7,7 +7,7 @@ Tab bar in basso con 3 voci: Radar · Atenei · Avvisi.
 - Header: data + "Aggiornato HH:MM" (da `meta.json`), titolo "Radar PhD", campanella → Avvisi (pallino se non letti).
 - Ricerca testuale su titolo/snippet.
 - 3 tessere: Aperte · Scade < 30 gg · Nuove oggi.
-- Chip filtro scorrevoli: Tutte, EPFL, ETH, Oxford, Cambridge, Imperial, MIT, Harvard, Stanford, Caltech, Princeton.
+- Chip filtro scorrevoli: Tutte, EPFL, ETH, Oxford, Cambridge, Imperial, MIT, Harvard, Stanford, Caltech.
 - Lista card: pallino blu se nuova, "ATENEO · dipartimento", badge stato, titolo, tipo, scadenza (arancione se < 30 gg). Tap → Dettaglio.
 
 ## 2. Dettaglio posizione
@@ -19,7 +19,7 @@ Tab bar in basso con 3 voci: Radar · Atenei · Avvisi.
 - Piè: "Fonte: … · controllato X fa".
 
 ## 3. Atenei
-- Atenei raggruppati per modello: Posizione diretta (ETH) · Scuola dottorale + supervisore (EPFL) · Ammissione + borsa UK (Oxford, Cambridge, Imperial) · Ammissione di dipartimento USA (MIT, Harvard, Stanford, Caltech, Princeton). Ogni gruppo ha una riga di spiegazione.
+- Atenei raggruppati per modello: Posizione diretta (ETH) · Scuola dottorale + supervisore (EPFL) · Ammissione + borsa UK (Oxford, Cambridge, Imperial) · Ammissione di dipartimento USA (MIT, Harvard, Stanford, Caltech). Ogni gruppo ha una riga di spiegazione.
 - Riga: nome, dipartimenti, badge "N aperte"/"nessuna", prossima scadenza. Tap → Scheda ateneo.
 
 ## 4. Scheda ateneo

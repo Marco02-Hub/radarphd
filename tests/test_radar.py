@@ -59,4 +59,4 @@ def test_export_writes_json(tmp_path):
     pos = json.loads((tmp_path / "out" / "positions.json").read_text())
     unis = json.loads((tmp_path / "out" / "universities.json").read_text())
     assert pos[0]["uni"] == "ETH" and pos[0]["keywords"] == ["aeroelastic"]
-    assert len(unis) == 10 and next(u for u in unis if u["id"] == "ETH")["open_count"] == 1
+    assert len(unis) == 9 and next(u for u in unis if u["id"] == "ETH")["open_count"] == 1

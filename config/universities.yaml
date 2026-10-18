@@ -112,13 +112,3 @@ universities:
     steps: []
     contacts: []
     verified: false
-
-  - id: Princeton
-    photo: img/campus/princeton.jpg   # foto fissa da Wikimedia Commons (licenza libera)
-    photo_credit: null
-    name: Princeton University
-    departments: [MAE]
-    model: us_department
-    steps: []
-    contacts: []
-    verified: false

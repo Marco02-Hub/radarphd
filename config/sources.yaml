@@ -31,8 +31,7 @@ phd_markers: ["phd", "ph.d", "doctoral", "doctorate", "dphil", "studentship"]
 
 # Verifica 2026-10-18 (UA "RadarPhD", robots.txt rispettato). Bloccati da anti-bot (403/Cloudflare),
 # NON aggirati: ox.ac.uk, postgraduate.study.cam.ac.uk, jobs.cam.ac.uk, eng.cam.ac.uk/.../phd-studentships,
-# seas.harvard.edu, gsas.harvard.edu, galcit.caltech.edu, gradoffice.caltech.edu, mae.princeton.edu,
-# gradschool.princeton.edu, findaphd.com. robots.txt vieta: mce.caltech.edu, careers.epfl.ch/services/rss.
+# seas.harvard.edu, gsas.harvard.edu, galcit.caltech.edu, gradoffice.caltech.edu, findaphd.com. robots.txt vieta: mce.caltech.edu, careers.epfl.ch/services/rss.
 sources:
   - uni: ETH
     name: Portale lavoro ETH (tutte le posizioni, incl. dottorato)
@@ -160,11 +159,6 @@ sources:
     selector: main
     verified: true
 
-  - uni: Princeton
-    name: MAE graduate program
-    url: https://mae.princeton.edu/graduate
-    type: info
-    verified: false   # 403 Cloudflare su tutto princeton.edu: nessuna alternativa pubblica trovata
 
   # Aggregatore UK (sostituisce FindAPhD, bloccato da Cloudflare). Ordinati per data.
   - uni: UK
