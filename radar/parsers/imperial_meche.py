@@ -9,7 +9,7 @@ import re
 
 from bs4 import BeautifulSoup
 
-from ..extract import matched_keywords, parse_deadline
+from ..extract import find_supervisor, matched_keywords, parse_deadline, supervisor_from_title
 from ..models import Candidate, Source
 
 
@@ -33,5 +33,6 @@ def parse(html: str, source: Source, keywords: list[str], markers: list[str]) ->
             uni=source.uni, title=title, url=f"{base}#{anchor}", source_url=source.url,
             snippet=body[:280], deadline=parse_deadline(body),
             matched_keywords=matched_keywords(title + " " + body, keywords),
+            supervisor=supervisor_from_title(title) or find_supervisor(body),
         ))
     return out

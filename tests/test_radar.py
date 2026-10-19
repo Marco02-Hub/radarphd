@@ -71,3 +71,21 @@ def test_universities_have_sources():
             assert item["source"].startswith("https://"), (u["id"], item)
         for d in u["deadlines"]:
             assert d["recurring"] is None or re.fullmatch(r"\d\d-\d\d", d["recurring"])
+
+
+def test_supervisor_read_once_from_detail_page(tmp_path):
+    con = db.connect(tmp_path / "t.sqlite")
+    calls = []
+
+    def fake(url):
+        calls.append(url)
+        if "jobs.ethz.ch/job/1" in url:
+            return "<p>Our lab, led by Prof. Anna Rossi, offers a PhD position.</p>"
+        return LISTING if "jobs.ethz.ch" in url else "<p>info</p>"
+
+    run_once(con, fetcher=fake)
+    row = con.execute("SELECT supervisor, detail_checked FROM positions WHERE url LIKE '%/job/1'").fetchone()
+    assert row["supervisor"] == "Prof. Anna Rossi" and row["detail_checked"] == 1
+    calls.clear()
+    run_once(con, fetcher=fake)
+    assert not any(u.endswith("/job/1") for u in calls)  # pagina di dettaglio letta una volta sola

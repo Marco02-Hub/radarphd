@@ -14,7 +14,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from ..extract import matched_keywords, parse_deadline
+from ..extract import matched_keywords, parse_deadline, supervisor_from_title
 from ..models import Candidate, Source
 
 _URL = re.compile(r"https?://\S+")
@@ -50,7 +50,8 @@ def parse(html: str, source: Source, keywords: list[str], markers: list[str]) ->
         if strong is not None and strong.get_text(strip=True):
             # nuovo progetto: URL ancora ignoto, arriva con "For further details see:"
             project = Candidate(uni=source.uni, title=strong.get_text(" ", strip=True), url="",
-                                source_url=source.url, deadline=deadline)
+                                source_url=source.url, deadline=deadline,
+                                supervisor=supervisor_from_title(text))  # "Titolo (Hofmann & Martínez-Pañeda)"
             continue
 
         if project is None:

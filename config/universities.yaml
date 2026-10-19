@@ -48,11 +48,11 @@ universities:
   - id: EPFL
     photo: img/campus/epfl.jpg
     photo_credit:
-      author: "Guilhem Vellut from Annecy, France"
-      license: "CC BY 2.0"
-      license_url: "https://creativecommons.org/licenses/by/2.0"
-      url: "https://commons.wikimedia.org/wiki/File:EPFL_Rolex_Learning_Center_@_EPFL_@_Lausanne_(36749824932).jpg"
-      modified: "ridimensionata"
+      author: "Christoph Müller"
+      license: "CC BY-SA 4.0"
+      license_url: "https://creativecommons.org/licenses/by-sa/4.0"
+      url: "https://commons.wikimedia.org/wiki/File:EPFL_aerial.jpg"
+      modified: "ridimensionata e ritagliata"
     name: EPFL
     city: Losanna
     departments: [EDME (Mechanics)]

@@ -6,12 +6,13 @@ from datetime import date
 
 from . import db
 from .config import load_sources
-from .extract import page_text, text_hash
+from .extract import find_supervisor, page_text, text_hash
 from .fetch import fetch
 from .models import Alert, Candidate, Source
 from .parsers import parser_for
 
 DEADLINE_REMINDERS_DAYS = (14, 3)
+DETAIL_PAGES_PER_RUN = 40  # pagine di dettaglio lette per giro (una volta sola per posizione)
 
 
 def _upsert_candidate(con: sqlite3.Connection, c: Candidate) -> bool:
@@ -20,15 +21,16 @@ def _upsert_candidate(con: sqlite3.Connection, c: Candidate) -> bool:
     row = con.execute("SELECT url FROM positions WHERE url = ?", (c.url,)).fetchone()
     if row:
         con.execute(
-            "UPDATE positions SET last_checked = ?, active = 1, deadline = COALESCE(?, deadline) WHERE url = ?",
-            (ts, c.deadline.isoformat() if c.deadline else None, c.url),
+            "UPDATE positions SET last_checked = ?, active = 1, deadline = COALESCE(?, deadline),"
+            " supervisor = COALESCE(?, supervisor) WHERE url = ?",
+            (ts, c.deadline.isoformat() if c.deadline else None, c.supervisor, c.url),
         )
         return False
     con.execute(
-        "INSERT INTO positions (url, uni, title, snippet, deadline, keywords, source_url, first_seen, last_checked)"
-        " VALUES (?,?,?,?,?,?,?,?,?)",
+        "INSERT INTO positions (url, uni, title, snippet, deadline, keywords, source_url, first_seen, last_checked, supervisor)"
+        " VALUES (?,?,?,?,?,?,?,?,?,?)",
         (c.url, c.uni, c.title, c.snippet, c.deadline.isoformat() if c.deadline else None,
-         ",".join(c.matched_keywords), c.source_url, ts, ts),
+         ",".join(c.matched_keywords), c.source_url, ts, ts, c.supervisor),
     )
     return True
 
@@ -62,6 +64,20 @@ def _deadline_alerts(con: sqlite3.Connection, today: date) -> list[Alert]:
     return out
 
 
+def _fill_supervisors(con: sqlite3.Connection, fetcher) -> None:
+    """Legge una volta la pagina dell'annuncio per trovare il professore referente, se la lista non lo dice."""
+    rows = con.execute("SELECT url FROM positions WHERE active = 1 AND supervisor IS NULL AND detail_checked = 0"
+                       " LIMIT ?", (DETAIL_PAGES_PER_RUN,)).fetchall()
+    for r in rows:
+        url = r["url"]
+        sup = None
+        # ancore della pagina elenco e allegati non sono pagine di dettaglio
+        if "#" not in url and not url.lower().endswith((".pdf", ".doc", ".docx")):
+            html = fetcher(url)
+            sup = find_supervisor(page_text(html)) if html else None
+        con.execute("UPDATE positions SET supervisor = ?, detail_checked = 1 WHERE url = ?", (sup, url))
+
+
 def run_once(con: sqlite3.Connection | None = None, fetcher=fetch) -> list[Alert]:
     con = con or db.connect()
     sources, keywords, markers = load_sources()
@@ -81,6 +97,7 @@ def run_once(con: sqlite3.Connection | None = None, fetcher=fetch) -> list[Alert
             a = _check_info_page(con, src, html)
             if a:
                 alerts.append(a)
+    _fill_supervisors(con, fetcher)
     alerts += _deadline_alerts(con, date.today())
     for a in alerts:
         con.execute("INSERT INTO alerts (kind, uni, text, url, created_at) VALUES (?,?,?,?,?)",

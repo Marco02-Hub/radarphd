@@ -20,7 +20,7 @@ def export(con: sqlite3.Connection, out_dir: Path = OUT_DIR) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     positions = [dict(r) for r in con.execute(
-        "SELECT url, uni, title, snippet, deadline, keywords, source_url, first_seen, last_checked"
+        "SELECT url, uni, title, snippet, deadline, keywords, source_url, first_seen, last_checked, supervisor"
         " FROM positions WHERE active = 1 ORDER BY first_seen DESC")]
     for p in positions:
         p["id"] = hashlib.sha1(p["url"].encode("utf-8")).hexdigest()[:10]  # per la rotta #/p/<id>

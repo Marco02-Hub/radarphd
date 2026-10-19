@@ -83,3 +83,43 @@ def test_generic_skips_email_and_url_links():
       <a href="mailto:a.b@x.ac.uk">a.b@x.ac.uk</a> or see <a href="https://x.ac.uk/fluids">https://x.ac.uk/fluids</a></p></div>"""
     src = Source(uni="Imperial", name="t", url="https://x.ac.uk/", type="listing")
     assert find_candidates(html, src, KW, MK) == []
+
+
+def test_find_supervisor_patterns():
+    from radar.extract import find_supervisor
+    assert find_supervisor("Supervisors: Prof Harrison Steel and Prof Antonis Papachristodoulou This project") == \
+        "Prof Harrison Steel · Prof Antonis Papachristodoulou"
+    assert find_supervisor("The Lab at ETH Zurich, led by Prof. Markus Bambach, is seeking") == "Prof. Markus Bambach"
+    assert find_supervisor("Supervisory Team Dr Ioanna Dimitriou- Ioanna.Dimitriou@nottingham.ac.uk") == "Dr Ioanna Dimitriou"
+    assert find_supervisor("Supervisors: Prof Idris Kempf Next-generation light sources") == "Prof Idris Kempf"
+    assert find_supervisor("We look for a motivated student with a strong background.") is None
+
+
+def test_supervisor_from_title():
+    from radar.extract import supervisor_from_title
+    assert supervisor_from_title("PhD Studentship in Thermofluids (Prof Aleiferis)") == "Prof Aleiferis"
+    assert supervisor_from_title("PhD Studentship in Bio-lubricants for EV (Janet Wong)") == "Janet Wong"
+    assert supervisor_from_title("6 PhD Studentships in Steels (EAF)") is None
+    assert supervisor_from_title("LFP battery modelling (EV and Energy Storage)") is None
+
+
+def test_parsers_fill_supervisor():
+    src = Source(uni="Imperial", name="t", type="listing",
+                 url="https://www.imperial.ac.uk/aeronautics/study/phd/phd-opportunities-and-funding/")
+    aero = parser_for(src)(_html("imperial_aero_opportunities.html"), src, KW, MK)
+    assert aero[0].supervisor == "Dr Andrew Scott · Professor Denis Doorly"
+    src = Source(uni="Imperial", name="t", type="listing",
+                 url="https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/")
+    meche = {c.title: c.supervisor for c in parser_for(src)(_html("imperial_meche_studentships.html"), src, KW, MK)}
+    assert meche["PhD Studentship in Thermofluids (Prof Aleiferis)"] == "Prof Aleiferis"
+    src = Source(uni="Oxford", name="t", url="https://eng.ox.ac.uk/study/research-studentships", type="listing")
+    ox = [c for c in parser_for(src)(_html("oxford_eng_studentships.html"), src, KW, MK) if c.title.startswith("Thermomigration")]
+    assert ox[0].supervisor == "Felix Hofmann & Martínez-Pañeda"
+
+
+def test_find_supervisor_drops_sentence_start():
+    from radar.extract import find_supervisor
+    assert find_supervisor("Supervisors: Prof Laurence Brassart Many soft materials are") == "Prof Laurence Brassart"
+    assert find_supervisor("Supervisor: Prof Antonio Elia Forte Mechanical metamaterials can") == "Prof Antonio Elia Forte"
+    assert find_supervisor("Supervisors: Prof Harrison Steel and Prof Antonis Papachristodoulou") == \
+        "Prof Harrison Steel · Prof Antonis Papachristodoulou"

@@ -12,7 +12,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from ..extract import matched_keywords
+from ..extract import find_supervisor, matched_keywords
 from ..models import Candidate, Source
 
 _DATE = re.compile(r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b")
@@ -55,4 +55,5 @@ def parse(html: str, source: Source, keywords: list[str], markers: list[str]) ->
             cur.snippet = text[:280]
     for c in out:
         c.matched_keywords = matched_keywords(c.title + " " + c.snippet, keywords)
+        c.supervisor = find_supervisor(c.snippet)
     return out

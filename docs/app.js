@@ -119,6 +119,7 @@
     plus: '<svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>',
     page: '<svg viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 13h6M9 17h6"/></svg>',
     clock: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
+    user: '<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>',
   };
 
   // ---------- componenti ----------
@@ -129,6 +130,7 @@
         <span class="src">${esc(uniShort(p.uni))} · ${esc(sourceName(p.source_url))}</span>
         <span class="badge ${st.cls}">${esc(st.label)}</span></div>
       <h3>${esc(p.title)}</h3>
+      ${p.supervisor ? `<div class="prof">${I.user}<span>${esc(p.supervisor)}</span></div>` : ""}
       <div class="foot"><span class="sub">${esc(uniName(p.uni))}</span>${deadlineHtml(p.deadline)}</div>
     </a>`;
   }
@@ -151,7 +153,7 @@
     const q = ui.q.trim().toLowerCase();
     const list = base
       .filter((p) => ui.uni === "Tutte" || p.uni === ui.uni)
-      .filter((p) => !q || (p.title + " " + (p.snippet || "")).toLowerCase().includes(q))
+      .filter((p) => !q || (p.title + " " + (p.snippet || "") + " " + (p.supervisor || "")).toLowerCase().includes(q))
       .sort((a, b) => (isPast(a) - isPast(b)) || (a.deadline || "9999").localeCompare(b.deadline || "9999"));
     const chips = ["Tutte"].concat(D.unis.map((u) => u.id));
     if (D.positions.some((p) => p.uni === "UK")) chips.push("UK");
@@ -162,7 +164,7 @@
         <h1>Radar PhD</h1></div>
         <a class="iconbtn" href="#/avvisi" aria-label="Avvisi">${I.bell}${hasUnread() ? '<i class="dot"></i>' : ""}</a>
       </header>
-      <label class="search">${I.search}<input id="q" type="search" placeholder="Cerca titolo o descrizione" value="${esc(ui.q)}" autocomplete="off"></label>
+      <label class="search">${I.search}<input id="q" type="search" placeholder="Cerca titolo, descrizione o professore" value="${esc(ui.q)}" autocomplete="off"></label>
       <div class="tiles">
         <div class="tile"><b>${base.filter((p) => !isPast(p)).length}</b><span>Aperte</span></div>
         <div class="tile soon"><b>${base.filter(isSoon).length}</b><span>Scade &lt; 30 gg</span></div>
@@ -191,6 +193,7 @@
         </div></div>
       <div class="unirow">${esc(uniName(p.uni))} <span class="badge ${st.cls}">${esc(st.label)}</span></div>
       <h1>${esc(p.title)}</h1>
+      <div class="profbox">${I.user}<div><small>Professore referente</small><b>${p.supervisor ? esc(p.supervisor) : DASH}</b></div></div>
       ${p.snippet && p.snippet !== p.title ? `<p class="snippet">${esc(p.snippet)}</p>` : ""}
       <div class="grid4">
         <div><small>Scadenza</small><b>${esc(fmtDate(p.deadline))}</b></div>

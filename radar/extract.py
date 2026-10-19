@@ -106,3 +106,78 @@ def find_candidates(html: str, source: Source, keywords: list[str], markers: lis
             snippet=context[:280], deadline=parse_deadline(context), matched_keywords=hits,
         ))
     return out
+
+
+# ---- professore referente (solo se scritto nella pagina) ----
+_UP = r"[A-ZÀ-ÖØ-Þ][\w'’.-]*"
+_NAME = (r"(?:Prof(?:essor)?\.?|Dr\.?)\s+(?:Dr\.?\s+)?" + _UP +
+         r"(?:\s+(?:" + _UP + r"|de|van|von|der|di|da|del))*")
+_NAME_RX = re.compile(_NAME)
+# parole maiuscole che seguono spesso un nome ma non ne fanno parte
+_STOP = {"in", "this", "the", "we", "our", "at", "and", "department", "university", "school", "institute",
+         "faculty", "group", "lab", "laboratory", "research", "questions", "for", "of", "is", "will", "with",
+         "nhli", "aeronautics", "imperial", "college", "eth", "epfl", "london", "zurich", "oxford", "cambridge"}
+_CUES = [  # in ordine di affidabilità
+    re.compile(r"supervis(?:ory team|ion team|ors|or)(?:\s*\(s\))?\s*:?\s*", re.I),
+    re.compile(r"(?:led by|headed by|group of|lab(?:oratory)? of|under the supervision of)\s+", re.I),
+    re.compile(r"contact(?: the supervisors?)?\s*:?\s*", re.I),
+]
+
+
+_TITLE_WORD = re.compile(r"(?:Prof(?:essor)?|Dr)\.?")
+# parola di un nome: "Steel", "Martínez-Pañeda", "O’Neil", iniziale "B."; non "Next-generation" né "a.b@x"
+_NAME_WORD = re.compile(r"[A-ZÀ-ÖØ-Þ](?:\.|[a-zà-öø-ÿ'’]+(?:-[A-ZÀ-ÖØ-Þ][a-zà-öø-ÿ'’]+)*)|de|van|von|der|di|da|del")
+
+
+def _clean_name(raw: str, after: str = "") -> str | None:
+    words = []
+    for w in raw.split():
+        if not words or _TITLE_WORD.fullmatch(w):
+            words.append(w)
+            continue
+        w = re.sub(r"[’']s$", "", w.rstrip(",-"))  # "Mann’s" -> "Mann", "Dimitriou-" -> "Dimitriou"
+        if not _NAME_WORD.fullmatch(w) or w.lower() in _STOP:
+            break
+        words.append(w)
+    while words and words[-1].lower() in ("de", "van", "von", "der", "di", "da", "del"):
+        words.pop()
+    surnames = [w for w in words if not _TITLE_WORD.fullmatch(w)]
+    # "Prof Laurence Brassart Many researchers": nome lungo seguito da minuscola -> l'ultima parola apre la frase
+    if len(surnames) >= 3 and len(words) == len(raw.split()) and re.match(r"\s+[a-zà-ÿ]", after):
+        words.pop()
+        surnames.pop()
+    return " ".join(words) if surnames and len(words) >= 2 else None  # "Prof" da solo non è un nome
+
+
+def find_supervisor(text: str) -> str | None:
+    """Nome/i del professore referente dal testo dell'annuncio, o None se non indicato."""
+    for cue in _CUES:
+        for m in cue.finditer(text):
+            window = text[m.end(): m.end() + 160]
+            names = []
+            last = 0
+            for n in _NAME_RX.finditer(window):
+                if n.start() - last > (6 if not names else 60):  # primo nome subito dopo la parola chiave,
+                    break                                        # i successivi vicini ("Prof A and Prof B")
+                name = _clean_name(n.group(0), window[n.end():n.end() + 20])
+                if name and name not in names:
+                    names.append(name)
+                last = n.end()
+            if names:
+                return " · ".join(names[:3])
+    m = re.search(r"Prof(?:essor)?\.?\s+" + _UP + r"(?:\s+" + _UP + r")*", text)  # ultimo tentativo: primo "Prof."
+    return _clean_name(m.group(0), text[m.end():m.end() + 20]) if m else None
+
+
+def supervisor_from_title(title: str) -> str | None:
+    """Convenzione di alcuni siti: '... (Prof Aleiferis)' o '... (Janet Wong)' in fondo al titolo."""
+    m = re.search(r"\(([^()]{3,80})\)\s*$", title)
+    if not m:
+        return None
+    inner = m.group(1).strip()
+    titled = re.match(r"(?:Prof(?:essor)?|Dr)\.?\s", inner)
+    parts = re.split(r"\s*(?:&|,| and )\s*", re.sub(r"^(?:Prof(?:essor)?|Dr)\.?\s+", "", inner))
+    looks_like_names = all(p and all(_NAME_WORD.fullmatch(w) for w in p.split()) for p in parts)
+    if looks_like_names and (titled or " " in parts[0]):  # "(EAF)", "(EV and Energy Storage)" esclusi
+        return inner
+    return None

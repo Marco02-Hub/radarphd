@@ -28,6 +28,7 @@ class Candidate:
     snippet: str = ""
     deadline: date | None = None
     matched_keywords: list[str] = field(default_factory=list)
+    supervisor: str | None = None   # professore referente, solo se scritto nella pagina
 
 
 @dataclass

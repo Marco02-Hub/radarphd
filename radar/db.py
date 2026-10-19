@@ -53,4 +53,8 @@ def connect(path: Path = DB_PATH) -> sqlite3.Connection:
     con = sqlite3.connect(path)
     con.row_factory = sqlite3.Row
     con.executescript(SCHEMA)
+    cols = {r["name"] for r in con.execute("PRAGMA table_info(positions)")}
+    for col, decl in (("supervisor", "TEXT"), ("detail_checked", "INTEGER NOT NULL DEFAULT 0")):
+        if col not in cols:  # migrazione dei DB creati prima del campo
+            con.execute(f"ALTER TABLE positions ADD COLUMN {col} {decl}")
     return con
