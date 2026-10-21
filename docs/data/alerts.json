@@ -1,5 +1,12 @@
 [
  {
+  "kind": "page_changed",
+  "uni": "Imperial",
+  "text": "Imperial: pagina modificata — PhD application process — Aeronautics",
+  "url": "https://www.imperial.ac.uk/aeronautics/study/phd/application-process/",
+  "created_at": "2026-10-21T04:55:28+00:00"
+ },
+ {
   "kind": "new_position",
   "uni": "Oxford",
   "text": "Nuova posizione Oxford: Research Studentship in Control Theory, Optimization and Learning",
