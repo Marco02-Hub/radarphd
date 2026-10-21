@@ -1,5 +1,19 @@
 [
  {
+  "kind": "new_position",
+  "uni": "Oxford",
+  "text": "Nuova posizione Oxford: Research Studentship on Sustainable and Circular AI Systems",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-on-sustainable-and-circular-ai-systems",
+  "created_at": "2026-10-21T11:56:10+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "Oxford",
+  "text": "Nuova posizione Oxford: Research Studentship in Control & Engineering Biology",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-engineering-biology",
+  "created_at": "2026-10-21T11:56:10+00:00"
+ },
+ {
   "kind": "page_changed",
   "uni": "Imperial",
   "text": "Imperial: pagina modificata — PhD application process — Aeronautics",
