@@ -1,6 +1,13 @@
 [
  {
   "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship (Part-Time) in Control Systems and Robotics (Postgraduate Research Teaching Associate)",
+  "url": "https://www.jobs.ac.uk/job/DTG045/phd-studentship-part-time-in-control-systems-and-robotics-postgraduate-research-teaching-associate",
+  "created_at": "2026-10-22T11:59:44+00:00"
+ },
+ {
+  "kind": "new_position",
   "uni": "Oxford",
   "text": "Nuova posizione Oxford: Research Studentship on Sustainable and Circular AI Systems",
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-on-sustainable-and-circular-ai-systems",
