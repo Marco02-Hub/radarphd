@@ -1,6 +1,13 @@
 [
  {
   "kind": "new_position",
+  "uni": "Oxford",
+  "text": "Nuova posizione Oxford: Oxford–UBS Centre for Applied AI DPhil Studentship: Future AI Systems for Finance",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/oxford-ubs-centre-for-applied-ai-dphil-studentship-future-ai-systems-for-finance",
+  "created_at": "2026-10-26T13:11:13+00:00"
+ },
+ {
+  "kind": "new_position",
   "uni": "UK",
   "text": "Nuova posizione UK: PhD Studentship: Dynamic Analysis of Particle-Based Long-Duration Energy Storage Systems",
   "url": "https://www.jobs.ac.uk/job/DTJ736/phd-studentship-dynamic-analysis-of-particle-based-long-duration-energy-storage-systems",
