@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import re
+from functools import lru_cache
 from datetime import date
 from urllib.parse import urljoin
 
@@ -71,9 +72,23 @@ def parse_deadline(text: str) -> date | None:
     return None
 
 
+@lru_cache(maxsize=512)
+def _keyword_rx(k: str) -> re.Pattern:
+    # inizio di parola sempre ("energy" non scatta in "synergy"); le sigle corte anche a fine parola ("ai" non in "aim")
+    end = r"\b" if len(k) <= 3 else ""
+    return re.compile(r"\b" + re.escape(k) + end, re.I)
+
+
 def matched_keywords(text: str, keywords: list[str]) -> list[str]:
-    low = text.lower()
-    return [k for k in keywords if k in low]
+    return [k for k in keywords if _keyword_rx(k).search(text)]
+
+
+def topics(keywords: list[str], groups: dict[str, list[str]]) -> list[str]:
+    """Gruppi di parole chiave toccati da una posizione; "ml+fluidi" se ci sono entrambi."""
+    found = [g for g, words in groups.items() if any(k in words for k in keywords)]
+    if "ml" in found and "fluidi" in found:
+        found.insert(0, "ml+fluidi")
+    return found
 
 
 def find_candidates(html: str, source: Source, keywords: list[str], markers: list[str]) -> list[Candidate]:

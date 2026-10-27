@@ -4,8 +4,10 @@ from __future__ import annotations
 import sqlite3
 from datetime import date
 
-from . import db
-from .config import load_sources
+from functools import lru_cache
+
+from . import ai, db
+from .config import load_profile, load_sources
 from .extract import find_supervisor, page_text, text_hash
 from .fetch import fetch
 from .models import Alert, Candidate, Source
@@ -22,8 +24,8 @@ def _upsert_candidate(con: sqlite3.Connection, c: Candidate) -> bool:
     if row:
         con.execute(
             "UPDATE positions SET last_checked = ?, active = 1, deadline = COALESCE(?, deadline),"
-            " supervisor = COALESCE(?, supervisor) WHERE url = ?",
-            (ts, c.deadline.isoformat() if c.deadline else None, c.supervisor, c.url),
+            " supervisor = COALESCE(?, supervisor), keywords = ? WHERE url = ?",
+            (ts, c.deadline.isoformat() if c.deadline else None, c.supervisor, ",".join(c.matched_keywords), c.url),
         )
         return False
     con.execute(
@@ -81,6 +83,7 @@ def _fill_supervisors(con: sqlite3.Connection, fetcher) -> None:
 def run_once(con: sqlite3.Connection | None = None, fetcher=fetch) -> list[Alert]:
     con = con or db.connect()
     sources, keywords, markers = load_sources()
+    fetcher = lru_cache(maxsize=256)(fetcher)  # una pagina di dettaglio serve sia al professore sia all'IA
     alerts: list[Alert] = []
     for src in sources:
         html = fetcher(src.url)
@@ -98,6 +101,9 @@ def run_once(con: sqlite3.Connection | None = None, fetcher=fetch) -> list[Alert
             if a:
                 alerts.append(a)
     _fill_supervisors(con, fetcher)
+    n = ai.enrich(con, fetcher, load_profile())
+    if n:
+        print(f"[ai] posizioni valutate con Gemini: {n}")
     alerts += _deadline_alerts(con, date.today())
     for a in alerts:
         con.execute("INSERT INTO alerts (kind, uni, text, url, created_at) VALUES (?,?,?,?,?)",

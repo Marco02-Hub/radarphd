@@ -1,5 +1,5 @@
 /* Service worker: app in cache (offline), dati sempre freschi dalla rete (cache solo come riserva). */
-const VERSION = "radar-v2";
+const VERSION = "radar-v3";
 const APP = [
   "./", "index.html", "app.css", "app.js", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/icon-512-maskable.png", "icons/apple-touch-icon.png",

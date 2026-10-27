@@ -7,7 +7,8 @@ import sqlite3
 from pathlib import Path
 
 from . import ROOT, db
-from .config import load_sources, load_universities
+from .config import load_keyword_groups, load_sources, load_universities
+from .extract import topics
 
 OUT_DIR = ROOT / "docs" / "data"
 
@@ -18,13 +19,17 @@ def _write(path: Path, data) -> None:
 
 def export(con: sqlite3.Connection, out_dir: Path = OUT_DIR) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
+    groups = load_keyword_groups()
 
     positions = [dict(r) for r in con.execute(
-        "SELECT url, uni, title, snippet, deadline, keywords, source_url, first_seen, last_checked, supervisor"
+        "SELECT url, uni, title, snippet, deadline, keywords, source_url, first_seen, last_checked, supervisor,"
+        " ai_score, ai_reason, ai_summary, ai_tags"
         " FROM positions WHERE active = 1 ORDER BY first_seen DESC")]
     for p in positions:
         p["id"] = hashlib.sha1(p["url"].encode("utf-8")).hexdigest()[:10]  # per la rotta #/p/<id>
         p["keywords"] = [k for k in (p["keywords"] or "").split(",") if k]
+        p["topics"] = topics(p["keywords"], groups)
+        p["ai_tags"] = json.loads(p["ai_tags"]) if p["ai_tags"] else []
 
     sources, keywords, _ = load_sources()
     unis = []
@@ -44,4 +49,4 @@ def export(con: sqlite3.Connection, out_dir: Path = OUT_DIR) -> None:
     _write(out_dir / "positions.json", positions)
     _write(out_dir / "universities.json", unis)
     _write(out_dir / "alerts.json", alerts)
-    _write(out_dir / "meta.json", {"updated_at": db.now(), "keywords": keywords})
+    _write(out_dir / "meta.json", {"updated_at": db.now(), "keywords": keywords, "keyword_groups": groups})

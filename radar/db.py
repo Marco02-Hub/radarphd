@@ -54,7 +54,11 @@ def connect(path: Path = DB_PATH) -> sqlite3.Connection:
     con.row_factory = sqlite3.Row
     con.executescript(SCHEMA)
     cols = {r["name"] for r in con.execute("PRAGMA table_info(positions)")}
-    for col, decl in (("supervisor", "TEXT"), ("detail_checked", "INTEGER NOT NULL DEFAULT 0")):
+    for col, decl in (("supervisor", "TEXT"), ("detail_checked", "INTEGER NOT NULL DEFAULT 0"),
+                      # valutazione Gemini (radar/ai.py)
+                      ("ai_score", "INTEGER"), ("ai_reason", "TEXT"), ("ai_summary", "TEXT"), ("ai_tags", "TEXT"),
+                      ("ai_model", "TEXT"), ("ai_profile", "TEXT"), ("ai_at", "TEXT"),
+                      ("ai_tries", "INTEGER NOT NULL DEFAULT 0")):
         if col not in cols:  # migrazione dei DB creati prima del campo
             con.execute(f"ALTER TABLE positions ADD COLUMN {col} {decl}")
     return con

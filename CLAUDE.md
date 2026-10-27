@@ -3,7 +3,8 @@
 App personale che monitora le pagine PhD di 9 atenei (EPFL, ETH, Oxford, Cambridge, Imperial, MIT, Harvard, Stanford, Caltech) per ing. meccanica/aerospaziale e settori affini, e mostra: posizioni aperte, scadenze, come funziona la candidatura, chi contattare. UI in italiano.
 
 ## Vincoli (non negoziabili)
-- **Costo zero.** Solo servizi gratuiti: GitHub (repo pubblico, Actions, Pages) e bot Telegram. Niente server, hosting, database, domini o API a pagamento, incluse API di AI e motori di ricerca a pagamento. Se una soluzione richiede una carta di credito, è esclusa.
+- **Costo zero.** Solo servizi gratuiti: GitHub (repo pubblico, Actions, Pages), bot Telegram e il **piano gratuito dell'API Gemini** (Google AI Studio, senza fatturazione). Niente server, hosting, database, domini o API a pagamento, incluse API di AI e motori di ricerca a pagamento. Se una soluzione richiede una carta di credito, è esclusa.
+- **IA solo lato server:** la chiave Gemini sta nei segreti di GitHub (`RADAR_GEMINI_API_KEY`), mai nel frontend. Il testo dell'IA (voto, motivo, riassunto, etichette) è mostrato con l'etichetta "IA"; professore e scadenza dall'IA sono accettati solo se citati alla lettera dalla pagina.
 - **Ricerca = lettura diretta delle pagine ufficiali** (scraping gentile: robots.txt, 1 richiesta ogni ≥5 s per dominio), più eventuali aggregatori gratuiti.
 - **Frontend senza build:** HTML + CSS + JS vanilla in `docs/`. Niente npm, framework o bundler.
 - **App installabile (PWA):** sul Mac/PC "Installa app" dal browser, su iPhone Safari → Condividi → "Aggiungi alla schermata Home". Serve `manifest.webmanifest`, `sw.js` e le icone.
@@ -26,9 +27,10 @@ Stato utente (posizioni salvate, parole chiave scelte, avvisi letti) = `localSto
 | `radar/fetch.py` | download con robots.txt e rate limit |
 | `radar/extract.py` | trova annunci (link con marker PhD + parola chiave), scadenza, hash pagine |
 | `radar/monitor.py` | un giro: nuove posizioni, pagine cambiate, promemoria scadenze (14/3 gg) |
+| `radar/ai.py` | voto di pertinenza 0–10, motivo, riassunto ed etichette con Gemini (max 30 posizioni/giro, ≤10 richieste/min) |
 | `radar/export.py` | scrive `docs/data/{positions,universities,alerts,meta}.json` |
 | `radar/notify.py` | Telegram (+ email opzionale), credenziali solo da env |
-| `config/sources.yaml` | pagine da monitorare + parole chiave. URL `verified: false` = da controllare |
+| `config/sources.yaml` | pagine da monitorare, parole chiave per gruppo (`fluidi`, `ml`, `altro` → etichetta "ML + fluidi"), `profilo` usato dall'IA. URL `verified: false` = da controllare |
 | `config/universities.yaml` | modello di candidatura, passi, contatti, foto campus per ateneo |
 | `design/SCREENS.md` | **spec delle 5 schermate: leggi questa, non serve altro per la UI** |
 | `design/tokens.json` | colori, font, raggi |

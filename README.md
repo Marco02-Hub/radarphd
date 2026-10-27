@@ -14,6 +14,9 @@ Istruzioni di sviluppo: `CLAUDE.md`. Spec delle schermate: `design/SCREENS.md`.
    Manda un messaggio qualsiasi al tuo bot, poi apri `https://api.telegram.org/bot<TOKEN>/getUpdates`
    e copia `chat.id`. In GitHub: Settings → Secrets and variables → Actions → New repository secret:
    `RADAR_TELEGRAM_TOKEN` e `RADAR_TELEGRAM_CHAT_ID`.
+3b. **IA Gemini** (facoltativo, gratis): crea la chiave su https://aistudio.google.com/apikey e aggiungila come secret
+   `RADAR_GEMINI_API_KEY`. Ogni posizione riceve voto di pertinenza, riassunto ed etichette. Il profilo usato
+   per il voto è `profilo:` in `config/sources.yaml`.
 4. **Permessi Actions**: Settings → Actions → General → Workflow permissions → "Read and write permissions".
 5. **Primo giro**: Actions → radar-monitor → Run workflow. Poi gira da solo ogni 6 ore.
 6. **Installa l'app**: su Mac/PC apri il sito con Chrome/Edge → icona "Installa" nella barra degli indirizzi;

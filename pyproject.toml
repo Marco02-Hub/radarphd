@@ -1,7 +1,7 @@
 [project]
 name = "radar-phd"
 version = "0.1.0"
-description = "Monitora posizioni di dottorato in ing. meccanica/aerospaziale in 10 atenei"
+description = "Monitora posizioni di dottorato in ing. meccanica/aerospaziale e ML/IA"
 requires-python = ">=3.10"
 dependencies = [
   "httpx>=0.27",

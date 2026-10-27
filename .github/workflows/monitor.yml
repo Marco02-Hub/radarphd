@@ -1,6 +1,6 @@
 # Gira gratis su GitHub Actions (repo pubblico) ogni 6 ore.
 # Aggiorna data/radar.sqlite e docs/data/*.json; GitHub Pages ripubblica docs/ da solo.
-# Segreti (Settings > Secrets > Actions): RADAR_TELEGRAM_TOKEN, RADAR_TELEGRAM_CHAT_ID
+# Segreti (Settings > Secrets > Actions): RADAR_GEMINI_API_KEY (voto IA, facoltativo), RADAR_TELEGRAM_TOKEN, RADAR_TELEGRAM_CHAT_ID
 name: radar-monitor
 on:
   schedule:
@@ -23,6 +23,7 @@ jobs:
         env:
           RADAR_TELEGRAM_TOKEN: ${{ secrets.RADAR_TELEGRAM_TOKEN }}
           RADAR_TELEGRAM_CHAT_ID: ${{ secrets.RADAR_TELEGRAM_CHAT_ID }}
+          RADAR_GEMINI_API_KEY: ${{ secrets.RADAR_GEMINI_API_KEY }}
       - name: Commit dati
         run: |
           git config user.name "radar-bot"

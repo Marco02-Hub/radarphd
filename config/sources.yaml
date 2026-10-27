@@ -4,28 +4,58 @@
 # verified: false -> URL scritto a mano, DA VERIFICARE prima dell'uso.
 # selector (opzionale) -> selettore CSS che delimita la zona utile della pagina.
 
-# Parole chiave ampie: il monitor raccoglie largo, l'app filtra per le parole scelte dall'utente.
-# Usate anche per decidere cosa mandare su Telegram.
+# Parole chiave ampie, divise per gruppo: il monitor raccoglie largo, l'app filtra per le parole scelte dall'utente.
+# Una posizione entra nel radar se contiene almeno una parola di qualsiasi gruppo.
+# Se contiene una parola "fluidi" E una "ml" riceve l'etichetta "ML + fluidi".
+# Parole di 3 lettere o meno (es. "AI", "CFD") contano solo come parola intera: "ai" non scatta dentro "main".
 keywords:
-  - CFD
-  - aeroelastic
-  - fluid
-  - flow control
-  - instability
-  - resolvent
-  - turbulence
-  - propulsion
-  - turbomachinery
-  - aerodynamic
-  - aerospace
-  - combustion
-  - mechanical engineering
-  - aerospace engineering
-  - structural
-  - energy
-  - robotics
-  - acoustics
-  - heat transfer
+  fluidi:
+    - CFD
+    - fluid
+    - flow control
+    - turbulen          # turbulence, turbulent
+    - aerodynamic
+    - aeroelastic
+    - aeroacoustic
+    - instability
+    - resolvent
+    - combustion
+    - heat transfer
+    - multiphase
+    - hydrodynamic
+    - navier-stokes
+  ml:
+    - machine learning
+    - deep learning
+    - neural network
+    - neural operator
+    - artificial intelligence
+    - AI
+    - data-driven
+    - physics-informed
+    - PINN
+    - reduced-order
+    - surrogate model
+    - reinforcement learning
+    - scientific machine learning
+  altro:
+    - mechanical engineering
+    - aerospace engineering
+    - aerospace
+    - propulsion
+    - turbomachinery
+    - structural
+    - energy
+    - robotics
+    - acoustics
+
+# Profilo usato dall'IA (Gemini) per dare il voto di pertinenza a ogni posizione. Modificalo liberamente.
+profilo: >
+  Laureato in ingegneria meccanica/aerospaziale che cerca un PhD. Interesse principale: fluidodinamica
+  (turbolenza, CFD, instabilità, controllo del flusso, aerodinamica) e soprattutto machine learning / IA
+  applicati alla fluidodinamica (modelli data-driven, physics-informed, reduced-order, surrogati, RL per
+  il controllo del flusso). Interessano anche ML/IA applicati ad altri ambiti dell'ingegneria meccanica e
+  aerospaziale. Poco interessanti: posizioni senza componente ingegneristica o fuori da meccanica/aerospaziale.
 
 phd_markers: ["phd", "ph.d", "doctoral", "doctorate", "dphil", "studentship"]
 
@@ -171,6 +201,20 @@ sources:
   - uni: UK
     name: jobs.ac.uk — PhD mechanical engineering
     url: https://www.jobs.ac.uk/search/?keywords=phd+mechanical+engineering&sortOrder=1&pageSize=25&startIndex=1
+    type: listing
+    selector: "#job-listings"
+    verified: true
+
+  - uni: UK
+    name: jobs.ac.uk — PhD machine learning fluid
+    url: https://www.jobs.ac.uk/search/?keywords=phd+machine+learning+fluid&sortOrder=1&pageSize=25&startIndex=1
+    type: listing
+    selector: "#job-listings"
+    verified: true
+
+  - uni: UK
+    name: jobs.ac.uk — PhD machine learning engineering
+    url: https://www.jobs.ac.uk/search/?keywords=phd+machine+learning+engineering&sortOrder=1&pageSize=25&startIndex=1
     type: listing
     selector: "#job-listings"
     verified: true

@@ -4,7 +4,7 @@
 
   // ---------- stato ----------
   const D = { positions: [], unis: [], alerts: [], meta: {} };
-  const ui = { q: "", uni: "Tutte", uniTab: "come" };
+  const ui = { q: "", uni: "Tutte", uniTab: "come", sort: null, mlf: false };
   const view = document.getElementById("view");
 
   const store = {
@@ -103,6 +103,17 @@
     return kws.some((k) => hay.includes(k));
   };
 
+  // ---------- valutazione IA (Gemini) e temi ----------
+  const hasAi = (p) => typeof p.ai_score === "number";
+  const isMlFluid = (p) => (p.topics || []).includes("ml+fluidi");
+  const sortMode = () => ui.sort || store.get("sort", D.positions.some(hasAi) ? "ia" : "scadenza");
+  const byDeadline = (a, b) => (isPast(a) - isPast(b)) || (a.deadline || "9999").localeCompare(b.deadline || "9999");
+  const byScore = (a, b) => (isPast(a) - isPast(b)) || ((hasAi(b) ? b.ai_score : -1) - (hasAi(a) ? a.ai_score : -1)) || byDeadline(a, b);
+  const scoreCls = (n) => (n >= 7 ? "hi" : n >= 4 ? "mid" : "lo");
+  const scoreHtml = (p) => (hasAi(p)
+    ? `<span class="score ${scoreCls(p.ai_score)}" title="Pertinenza stimata dall'IA">IA ${p.ai_score}/10</span>` : "");
+  const mlfHtml = (p) => (isMlFluid(p) ? '<span class="tag mlf">ML + fluidi</span>' : "");
+
   const lastSeenAlert = () => store.get("alerts.seen", "");
   const hasUnread = () => D.alerts.some((a) => a.created_at > lastSeenAlert());
 
@@ -131,6 +142,7 @@
         <span class="badge ${st.cls}">${esc(st.label)}</span></div>
       <h3>${esc(p.title)}</h3>
       ${p.supervisor ? `<div class="prof">${I.user}<span>${esc(p.supervisor)}</span></div>` : ""}
+      ${hasAi(p) || isMlFluid(p) ? `<div class="tags">${scoreHtml(p)}${mlfHtml(p)}</div>` : ""}
       <div class="foot"><span class="sub">${esc(uniName(p.uni))}</span>${deadlineHtml(p.deadline)}</div>
     </a>`;
   }
@@ -151,10 +163,13 @@
     const kws = activeKeywords();
     const base = D.positions.filter((p) => matchesKeywords(p, kws));
     const q = ui.q.trim().toLowerCase();
+    const sort = sortMode();
     const list = base
       .filter((p) => ui.uni === "Tutte" || p.uni === ui.uni)
-      .filter((p) => !q || (p.title + " " + (p.snippet || "") + " " + (p.supervisor || "")).toLowerCase().includes(q))
-      .sort((a, b) => (isPast(a) - isPast(b)) || (a.deadline || "9999").localeCompare(b.deadline || "9999"));
+      .filter((p) => !ui.mlf || isMlFluid(p))
+      .filter((p) => !q || (p.title + " " + (p.snippet || "") + " " + (p.supervisor || "") + " " + (p.ai_summary || "")
+        + " " + (p.ai_tags || []).join(" ")).toLowerCase().includes(q))
+      .sort(sort === "ia" ? byScore : byDeadline);
     const chips = ["Tutte"].concat(D.unis.map((u) => u.id));
     if (D.positions.some((p) => p.uni === "UK")) chips.push("UK");
     const count = (id) => base.filter((p) => id === "Tutte" || p.uni === id).length;
@@ -174,8 +189,14 @@
       <div class="chips" role="group" aria-label="Filtra per ateneo">
         ${chips.map((c) => `<button class="chip" data-uni="${esc(c)}" aria-pressed="${ui.uni === c}">${esc(c)}<span class="n">${count(c)}</span></button>`).join("")}
       </div>
+      <div class="viewrow">
+        <div class="seg small" role="group" aria-label="Ordina">
+          <button data-sort="ia" aria-pressed="${sort === "ia"}">Pertinenza IA</button>
+          <button data-sort="scadenza" aria-pressed="${sort === "scadenza"}">Scadenza</button></div>
+        <button class="chip mlfchip" data-action="mlf" aria-pressed="${ui.mlf}">ML + fluidi<span class="n">${base.filter(isMlFluid).length}</span></button>
+      </div>
       <div id="list">${list.length ? list.map(posCard).join("") :
-        `<div class="empty">Nessuna posizione${q || ui.uni !== "Tutte" || kws.length ? " con questi filtri" : " trovata finora"}.</div>`}</div>`;
+        `<div class="empty">Nessuna posizione${q || ui.uni !== "Tutte" || kws.length || ui.mlf ? " con questi filtri" : " trovata finora"}.</div>`}</div>`;
   }
 
   function vDetail(id) {
@@ -194,6 +215,13 @@
       <div class="unirow">${esc(uniName(p.uni))} <span class="badge ${st.cls}">${esc(st.label)}</span></div>
       <h1>${esc(p.title)}</h1>
       <div class="profbox">${I.user}<div><small>Professore referente</small><b>${p.supervisor ? esc(p.supervisor) : DASH}</b></div></div>
+      ${hasAi(p) ? `<div class="aibox">
+        <div class="aihead"><span class="score ${scoreCls(p.ai_score)}">${p.ai_score}/10</span><b>Valutazione IA</b>${mlfHtml(p)}</div>
+        ${p.ai_reason ? `<p class="reason">${esc(p.ai_reason)}</p>` : ""}
+        ${p.ai_summary ? `<p>${esc(p.ai_summary)}</p>` : ""}
+        ${(p.ai_tags || []).length ? `<div class="tags">${p.ai_tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}
+        <small>Generato da Gemini sul testo dell'annuncio: può sbagliare, verifica sempre l'originale.</small>
+      </div>` : isMlFluid(p) ? `<div class="tags" style="margin:10px 0">${mlfHtml(p)}</div>` : ""}
       ${p.snippet && p.snippet !== p.title ? `<p class="snippet">${esc(p.snippet)}</p>` : ""}
       <div class="grid4">
         <div><small>Scadenza</small><b>${esc(fmtDate(p.deadline))}</b></div>
@@ -367,8 +395,9 @@
   });
 
   view.addEventListener("click", (e) => {
-    const t = e.target.closest("[data-uni],[data-action],[data-tab],[data-kw]");
+    const t = e.target.closest("[data-uni],[data-action],[data-tab],[data-kw],[data-sort]");
     if (!t) return;
+    if (t.dataset.sort) { ui.sort = t.dataset.sort; store.set("sort", ui.sort); rerenderList(); return; }
     if (t.dataset.uni) { ui.uni = t.dataset.uni; rerenderList(); return; }
     if (t.dataset.tab && t.getAttribute("role") === "tab") {
       ui.uniTab = t.dataset.tab;
@@ -385,6 +414,7 @@
     }
     const a = t.dataset.action;
     if (a === "back") { if (history.length > 1) history.back(); else location.hash = "#/"; }
+    else if (a === "mlf") { ui.mlf = !ui.mlf; rerenderList(); }
     else if (a === "save") {
       const s = store.get("saved", []), id = t.dataset.id;
       store.set("saved", s.includes(id) ? s.filter((x) => x !== id) : s.concat(id));
