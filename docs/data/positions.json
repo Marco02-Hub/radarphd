@@ -1,19 +1,395 @@
 [
  {
+  "url": "https://www.jobs.ac.uk/job/DTL063/phd-studentship-ai-and-image-processing-for-diabetic-retinopathy-dr-smart-cameras",
+  "uni": "UK",
+  "title": "PhD Studentship: AI and Image Processing for Diabetic Retinopathy (DR) Smart Cameras",
+  "snippet": "PhD Studentship: AI and Image Processing for Diabetic Retinopathy (DR) Smart Cameras Clinical and Biomedical Sciences University of Exeter Location: Exeter Salary: £21,805 The studentship will provide funding of fees and a stipend of £21,805 per annum for 2026/7. Date Placed: 28 ",
+  "deadline": "2026-12-08",
+  "keywords": [
+   "ai"
+  ],
+  "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+machine+learning+engineering&sortOrder=1&pageSize=25&startIndex=1",
+  "first_seen": "2026-10-28T05:49:13+00:00",
+  "last_checked": "2026-10-28T05:49:13+00:00",
+  "supervisor": "Professor Neil Vaughan",
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "2bc679035f",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://www.jobs.ac.uk/job/DTL059/phd-studentship-integrating-machine-learning-with-one-health-frameworks-to-quantify-disease-transmission-pathways-between-wildlife-and-the-environment",
+  "uni": "UK",
+  "title": "PhD Studentship: Integrating Machine Learning with One Health Frameworks to Quantify Disease Transmission Pathways between Wildlife and the Environment",
+  "snippet": "PhD Studentship: Integrating Machine Learning with One Health Frameworks to Quantify Disease Transmission Pathways between Wildlife and the Environment Ecology and Conservation University of Exeter Location: Exeter Salary: £21,805 The studentship will provide funding of fees and ",
+  "deadline": "2026-12-08",
+  "keywords": [
+   "machine learning"
+  ],
+  "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+machine+learning+engineering&sortOrder=1&pageSize=25&startIndex=1",
+  "first_seen": "2026-10-28T05:49:13+00:00",
+  "last_checked": "2026-10-28T05:49:13+00:00",
+  "supervisor": "Prof Monica Craciun",
+  "ai_score": 2,
+  "ai_reason": "Il progetto riguarda l'ecologia, la conservazione e il monitoraggio della fauna selvatica, fuori dall'ambito della fluidodinamica o dell'ingegneria aerospaziale.",
+  "ai_summary": "Il dottorando si occuperà di co-progettare sistemi di rilevamento hardware e intelligenza artificiale per monitorare il comportamento e la fisiologia degli animali selvatici in ambienti naturali. Il lavoro prevede lo sviluppo di tecnologie a basso consumo e l'applicazione di algoritmi di IA per l'analisi di dati visivi e acustici.",
+  "ai_tags": [
+   "machine learning",
+   "monitoraggio ambientale",
+   "ingegneria elettronica"
+  ],
+  "id": "9d0adcdbb2",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://www.jobs.ac.uk/job/DTK885/phd-studentship-sovereign-agentic-ai-distilling-small-language-model-agents-for-local-deployment",
+  "uni": "UK",
+  "title": "PhD Studentship: Sovereign Agentic AI: Distilling Small Language Model Agents for Local Deployment",
+  "snippet": "PhD Studentship: Sovereign Agentic AI: Distilling Small Language Model Agents for Local Deployment Computer Science University of Exeter Location: Exeter Salary: £21,805 The studentship will provide funding of fees and a stipend of £21,805 per annum for 2026/7. Date Placed: 27 Oc",
+  "deadline": "2026-12-08",
+  "keywords": [
+   "ai"
+  ],
+  "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+machine+learning+engineering&sortOrder=1&pageSize=25&startIndex=1",
+  "first_seen": "2026-10-28T05:49:13+00:00",
+  "last_checked": "2026-10-28T05:49:13+00:00",
+  "supervisor": "Professor Shiqiang Wang · Dr. Tianjin",
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "871443c387",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://www.jobs.ac.uk/job/DTK857/phd-in-physics-aware-graph-neural-networks-for-robust-short-term-visibility-forecasting",
+  "uni": "UK",
+  "title": "PhD in Physics-Aware Graph Neural Networks for Robust Short-Term Visibility Forecasting",
+  "snippet": "PhD in Physics-Aware Graph Neural Networks for Robust Short-Term Visibility Forecasting Department of Engineering University of Exeter Location: Penryn Salary: £21,805 The studentship will provide funding of fees and a stipend per annum for 2026/7 Date Placed: 27 Oct Closes 08 De",
+  "deadline": "2026-12-08",
+  "keywords": [
+   "neural network"
+  ],
+  "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+machine+learning+engineering&sortOrder=1&pageSize=25&startIndex=1",
+  "first_seen": "2026-10-28T05:49:13+00:00",
+  "last_checked": "2026-10-28T05:49:13+00:00",
+  "supervisor": "Dr Zhou Zhou",
+  "ai_score": 6,
+  "ai_reason": "Il progetto applica machine learning e physics-aware graph neural networks alla meteorologia, ambito affine alla fluidodinamica ma non strettamente ingegneristico.",
+  "ai_summary": "Il dottorando svilupperà reti neurali a grafo spazio-temporali basate sulla fisica per la previsione a breve termine della visibilità atmosferica. Il lavoro combinerà dati osservativi e modelli numerici per migliorare l'affidabilità e la comprensione fisica dei modelli di intelligenza artificiale.",
+  "ai_tags": [
+   "Machine Learning",
+   "Physics-informed",
+   "Fluidodinamica",
+   "Reti neurali a grafo"
+  ],
+  "id": "80c796cad1",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://www.jobs.ac.uk/job/DTH043/phd-studentship-ai-optimisation-of-green-roofs-and-facades-for-low-carbon-heat-resilient-buildings",
+  "uni": "UK",
+  "title": "PhD Studentship: AI Optimisation of Green Roofs and Facades for Low-Carbon, Heat-Resilient Buildings",
+  "snippet": "PhD Studentship: AI Optimisation of Green Roofs and Facades for Low-Carbon, Heat-Resilient Buildings University of West London Location: London Salary: Full tuition fees and a tax-free stipend of £18,000 per year Date Placed: 26 Oct Closes 25 Jan",
+  "deadline": "2027-01-25",
+  "keywords": [
+   "ai"
+  ],
+  "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+machine+learning+engineering&sortOrder=1&pageSize=25&startIndex=1",
+  "first_seen": "2026-10-28T05:49:13+00:00",
+  "last_checked": "2026-10-28T05:49:13+00:00",
+  "supervisor": "Professor Ali Bahadori-Jahromi",
+  "ai_score": 6,
+  "ai_reason": "Il progetto usa machine learning e ottimizzazione, ma è applicato agli edifici e all'architettura sostenibile anziché alla fluidodinamica aerospaziale o meccanica.",
+  "ai_summary": "Il dottorando svilupperà un quadro decisionale basato sull'intelligenza artificiale per ottimizzare l'integrazione di tetti e facciate verdi negli edifici. La ricerca combinerà la simulazione delle prestazioni degli edifici, il machine learning, i sistemi informativi geografici e l'analisi dell'ottimizzazione per ridurre il carbonio e migliorare la resilienza climatica.",
+  "ai_tags": [
+   "Machine Learning",
+   "Ottimizzazione",
+   "Modellazione",
+   "Sostenibilità"
+  ],
+  "id": "cde00011bb",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://www.jobs.ac.uk/job/DTL071/phd-studentship-multiscale-scientific-machine-learning-digital-twins-for-high-torque-electric-propulsion-under-extreme-duty-cycles",
+  "uni": "UK",
+  "title": "PhD Studentship: Multiscale Scientific Machine Learning Digital Twins for High-Torque Electric Propulsion under Extreme Duty Cycles",
+  "snippet": "PhD Studentship: Multiscale Scientific Machine Learning Digital Twins for High-Torque Electric Propulsion under Extreme Duty Cycles Engineering University of Exeter Location: Exeter Salary: £21,805 The studentship will provide funding of fees and a stipend of £21,805 per annum fo",
+  "deadline": "2026-12-08",
+  "keywords": [
+   "machine learning",
+   "scientific machine learning",
+   "propulsion"
+  ],
+  "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+mechanical+engineering&sortOrder=1&pageSize=25&startIndex=1",
+  "first_seen": "2026-10-28T05:49:04+00:00",
+  "last_checked": "2026-10-28T05:49:13+00:00",
+  "supervisor": null,
+  "ai_score": 7,
+  "ai_reason": "Il progetto applica il machine learning scientifico e modelli data-driven all'ingegneria meccanica, in linea con gli interessi dello studente.",
+  "ai_summary": "Il dottorando svilupperà un digital twin basato su Scientific Machine Learning (SciML) per prevedere il comportamento termico e la coppia di sistemi di propulsione elettrica. Il lavoro combinerà modelli ibridi physics-informed con esperimenti di laboratorio su banco dinamometrico in collaborazione con un'azienda industriale.",
+  "ai_tags": [
+   "Machine Learning",
+   "Digital Twin",
+   "Ingegneria Meccanica"
+  ],
+  "id": "e83c0cf4e5",
+  "topics": [
+   "ml",
+   "altro"
+  ]
+ },
+ {
+  "url": "https://www.jobs.ac.uk/job/DTL053/phd-studentship-physics-informed-ai-and-experimental-modelling-of-ocean-mixing-from-fracture-zones-to-ocean-ventilation",
+  "uni": "UK",
+  "title": "PhD Studentship: Physics-Informed AI and Experimental Modelling of Ocean Mixing: From Fracture Zones to Ocean Ventilation",
+  "snippet": "PhD Studentship: Physics-Informed AI and Experimental Modelling of Ocean Mixing: From Fracture Zones to Ocean Ventilation Geography University of Exeter Location: Exeter Salary: £21,805 The studentship will provide funding of fees and a stipend of £21,805 per annum for 2026/7. Da",
+  "deadline": "2026-12-08",
+  "keywords": [
+   "ai",
+   "physics-informed"
+  ],
+  "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+mechanical+engineering&sortOrder=1&pageSize=25&startIndex=1",
+  "first_seen": "2026-10-28T05:49:04+00:00",
+  "last_checked": "2026-10-28T05:49:13+00:00",
+  "supervisor": null,
+  "ai_score": 6,
+  "ai_reason": "Il progetto unisce fluidodinamica ambientale e intelligenza artificiale physics-informed, tema rilevante ma applicato all'oceanografia anziché a ingegneria meccanica/aerospaziale.",
+  "ai_summary": "Il dottorando studierà i meccanismi di miscelazione oceanica combinando osservazioni, simulazioni numeriche con MITgcm e modelli di intelligenza artificiale physics-informed. L'obiettivo è sviluppare emulatori basati su machine learning per migliorare i modelli climatici e di circolazione oceanica.",
+  "ai_tags": [
+   "ML + fluidi",
+   "Physics-informed AI",
+   "Simulazioni numeriche",
+   "Fluidodinamica ambientale"
+  ],
+  "id": "a1cf2c08b2",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://www.jobs.ac.uk/job/DTK939/phd-studentship-beyond-pilots-de-risking-the-scale-up-of-artificial-intelligence-in-digitally-enabled-circular-supply-chains",
+  "uni": "UK",
+  "title": "PhD Studentship: Beyond Pilots: De-Risking the Scale-Up of Artificial Intelligence in Digitally Enabled Circular Supply Chains",
+  "snippet": "PhD Studentship: Beyond Pilots: De-Risking the Scale-Up of Artificial Intelligence in Digitally Enabled Circular Supply Chains Management University of Exeter Location: Exeter Salary: £21,805 The studentship will provide funding of fees and a stipend of £21,805 per annum for 2026",
+  "deadline": "2026-12-08",
+  "keywords": [
+   "artificial intelligence"
+  ],
+  "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+mechanical+engineering&sortOrder=1&pageSize=25&startIndex=1",
+  "first_seen": "2026-10-28T05:49:04+00:00",
+  "last_checked": "2026-10-28T05:49:04+00:00",
+  "supervisor": null,
+  "ai_score": 0,
+  "ai_reason": "Il progetto riguarda la gestione della supply chain e l'intelligenza artificiale, totalmente fuori dall'ingegneria meccanica e aerospaziale.",
+  "ai_summary": "Il dottorato si concentra sull'intelligenza artificiale applicata alle catene di approvvigionamento circolari digitalizzate presso l'Università di Exeter. Il finanziamento include tasse e uno stipendio annuale per il 2026.",
+  "ai_tags": [
+   "intelligenza artificiale",
+   "supply chain"
+  ],
+  "id": "1ee7043003",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://www.jobs.ac.uk/job/DTJ527/phd-studentship-how-to-build-an-immune-receptor-ai-led-protein-design-for-engineering-disease-resistance",
+  "uni": "UK",
+  "title": "PhD Studentship: How to build an immune receptor: AI-led protein design for engineering disease resistance",
+  "snippet": "PhD Studentship: How to build an immune receptor: AI-led protein design for engineering disease resistance John Innes Centre University of East Anglia Location: Norwich Salary: £21,805 Date Placed: 22 Oct Closes 30 Nov",
+  "deadline": "2026-11-30",
+  "keywords": [
+   "ai"
+  ],
+  "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+mechanical+engineering&sortOrder=1&pageSize=25&startIndex=1",
+  "first_seen": "2026-10-28T05:49:04+00:00",
+  "last_checked": "2026-10-28T05:49:04+00:00",
+  "supervisor": "Professor Mark Banfield",
+  "ai_score": 0,
+  "ai_reason": "Il progetto riguarda la biologia vegetale e il design computazionale di proteine, completamente estraneo alla fluidodinamica o all ingegneria meccanica.",
+  "ai_summary": "Il dottorando studierà come progettare e combinare recettori immunitari artificiali nelle piante utilizzando strumenti computazionali di design proteico. Indagherà inoltre i meccanismi molecolari di questi recettori mediante approcci in vitro e in vivo per migliorare la resistenza alle malattie.",
+  "ai_tags": [
+   "biologia molecolare",
+   "design proteico",
+   "biotecnologie"
+  ],
+  "id": "d9b673300e",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://careers.epfl.ch/job/Lausanne-PhD-Position-in-Interpretable-AI-for-Coupled-Multiphysics-of-Geomaterials/1164829555/",
+  "uni": "EPFL",
+  "title": "PhD Position in Interpretable AI for Coupled Multiphysics of Geomaterials",
+  "snippet": "PhD Position in Interpretable AI for Coupled Multiphysics of Geomaterials PhD Position in Interpretable AI for Coupled Multiphysics of Geomaterials PhD Student Lausanne CDD Lausanne PhD Student CDD",
+  "deadline": null,
+  "keywords": [
+   "ai"
+  ],
+  "source_url": "https://careers.epfl.ch/go/PhD-Student/505174/",
+  "first_seen": "2026-10-28T05:46:44+00:00",
+  "last_checked": "2026-10-28T05:46:44+00:00",
+  "supervisor": "Prof. Kostas Karapiperis",
+  "ai_score": 6,
+  "ai_reason": "Tema interessante per l'uso di IA e machine learning in meccanica computazionale, ma focalizzato sui geomateriali anziché sulla fluidodinamica.",
+  "ai_summary": "Il dottorando svilupperà un framework data-driven per la scoperta scientifica nei geomateriali, unendo la meccanica computazionale e l'intelligenza artificiale interpretabile. La ricerca includerà la modellazione basata sulla fisica e il machine learning informato dalla termodinamica.",
+  "ai_tags": [
+   "Machine Learning",
+   "Meccanica Computazionale",
+   "Physics-informed"
+  ],
+  "id": "5cde70b1fc",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://careers.epfl.ch/job/Lausanne-PhD-Student-in-Trustworthy-AI-for-Autonomous-Plant-Operations/1165540855/",
+  "uni": "EPFL",
+  "title": "PhD Student in Trustworthy AI for Autonomous Plant Operations",
+  "snippet": "PhD Student in Trustworthy AI for Autonomous Plant Operations PhD Student in Trustworthy AI for Autonomous Plant Operations PhD Student Lausanne CDD Lausanne PhD Student CDD",
+  "deadline": null,
+  "keywords": [
+   "ai"
+  ],
+  "source_url": "https://careers.epfl.ch/go/PhD-Student/505174/",
+  "first_seen": "2026-10-28T05:46:44+00:00",
+  "last_checked": "2026-10-28T05:46:44+00:00",
+  "supervisor": null,
+  "ai_score": 6,
+  "ai_reason": "Il progetto riguarda l'IA affidabile per impianti di processo e non direttamente la fluidodinamica, pur richiedendo competenze di ingegneria meccanica e machine learning.",
+  "ai_summary": "Il dottorando svilupperà un framework di intelligenza artificiale affidabile per il funzionamento autonomo di impianti di processo, combinando modelli fisici, digital twin e apprendimento automatico. Il sistema monitorerà gli stati dell'impianto, rileverà anomalie e formulerà raccomandazioni operative garantendo la sicurezza.",
+  "ai_tags": [
+   "Machine Learning",
+   "IA affidabile",
+   "Digital Twin",
+   "Ingegneria dei processi"
+  ],
+  "id": "de1f3e13ea",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_1VGWmPweQ1WxoDNZU6",
+  "uni": "ETH",
+  "title": "Doctoral Student in Machine Learning and Medical Data Science 100%, Zurich, fixed-term 21.10.2026                 |                 Department of Computer Science (D-INFK)",
+  "snippet": "Doctoral Student in Machine Learning and Medical Data Science 100%, Zurich, fixed-term 21.10.2026 | Department of Computer Science (D-INFK)",
+  "deadline": "2026-11-22",
+  "keywords": [
+   "machine learning"
+  ],
+  "source_url": "https://jobs.ethz.ch/",
+  "first_seen": "2026-10-28T05:46:40+00:00",
+  "last_checked": "2026-10-28T05:46:40+00:00",
+  "supervisor": "Prof. Julia Vogt",
+  "ai_score": 3,
+  "ai_reason": "Il dottorato riguarda il machine learning applicato alla medicina e all'healthcare, fuori dall'ambito fluidodinamico e ingegneristico richiesto.",
+  "ai_summary": "Il dottorando condurrà ricerche indipendenti su nuovi metodi di machine learning e intelligenza artificiale focalizzati su applicazioni mediche e sanitarie. Si occuperà di progettare, implementare e valutare modelli di machine learning e di pubblicare i risultati in collaborazione con esperti di discipline tecniche e mediche.",
+  "ai_tags": [
+   "machine learning",
+   "intelligenza artificiale",
+   "scienza dei dati medici"
+  ],
+  "id": "4c04398075",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_tezsMpGlVuLvSND8CC",
+  "uni": "ETH",
+  "title": "Doctoral Position in Generative AI-Based, Computational Design Methods for Engineering Design 100%, Zurich, fixed-term 02.10.2026                 |                 Engineering Design and Computing Laboratory",
+  "snippet": "Doctoral Position in Generative AI-Based, Computational Design Methods for Engineering Design 100%, Zurich, fixed-term 02.10.2026 | Engineering Design and Computing Laboratory",
+  "deadline": "2026-11-01",
+  "keywords": [
+   "ai"
+  ],
+  "source_url": "https://jobs.ethz.ch/",
+  "first_seen": "2026-10-28T05:46:40+00:00",
+  "last_checked": "2026-10-28T05:46:40+00:00",
+  "supervisor": null,
+  "ai_score": 6,
+  "ai_reason": "Il dottorato unisce IA generativa e ingegneria meccanica, ma è focalizzato su metodi di design computazionale anziché su fluidodinamica o CFD.",
+  "ai_summary": "Il dottorando studierà l'applicazione dell'intelligenza artificiale generativa e dei modelli linguistici di grandi dimensioni per il design ingegneristico computazionale. Il progetto prevede di esplorare come i LLM possano supportare i progettisti nella rappresentazione e generazione di soluzioni innovative.",
+  "ai_tags": [
+   "IA generativa",
+   "ingegneria meccanica",
+   "metodi computazionali"
+  ],
+  "id": "855f1394ac",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
+  "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_hfJQki76KJw8Dwn0Pv",
+  "uni": "ETH",
+  "title": "Doctoral Student in Design and Analysis of Human-AI Systems 100%, Zurich, fixed-term 23.09.2026                 |                 Department of Management, Technology and Economics (D-MTEC)",
+  "snippet": "Doctoral Student in Design and Analysis of Human-AI Systems 100%, Zurich, fixed-term 23.09.2026 | Department of Management, Technology and Economics (D-MTEC)",
+  "deadline": null,
+  "keywords": [
+   "ai"
+  ],
+  "source_url": "https://jobs.ethz.ch/",
+  "first_seen": "2026-10-28T05:46:40+00:00",
+  "last_checked": "2026-10-28T05:46:40+00:00",
+  "supervisor": "Prof. Tu Ni",
+  "ai_score": 1,
+  "ai_reason": "La posizione riguarda sistemi Human-AI in economia e management, completamente fuori dall'ingegneria meccanica, aerospaziale e dalla fluidodinamica.",
+  "ai_summary": "Il dottorando studierà la progettazione e l'analisi di sistemi intelligenza artificiale-umano focalizzandosi su decisioni ad alto impatto. La ricerca sarà principalmente teorica e si occuperà di ottimizzazione e teoria dei giochi applicata a contesti decisionali.",
+  "ai_tags": [
+   "intelligenza artificiale",
+   "management",
+   "teoria delle decisioni"
+  ],
+  "id": "80612ec41d",
+  "topics": [
+   "ml"
+  ]
+ },
+ {
   "url": "https://www.jobs.ac.uk/job/DTJ419/phd-in-computational-mechanics-and-data-driven-modelling-of-composite-materials",
   "uni": "UK",
   "title": "PhD in Computational Mechanics and Data-Driven Modelling of Composite Materials",
   "snippet": "PhD in Computational Mechanics and Data-Driven Modelling of Composite Materials Department of Mechanical and Aerospace Engineering The University of Manchester Location: Manchester Salary: £21,805 annual tax-free stipend and tuition fees will be paid Date Placed: 26 Oct Closes 21",
   "deadline": "2026-12-21",
   "keywords": [
-   "aerospace",
-   "aerospace engineering"
+   "data-driven",
+   "aerospace engineering",
+   "aerospace"
   ],
   "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+aerospace&sortOrder=1&pageSize=25&startIndex=1",
   "first_seen": "2026-10-26T22:44:26+00:00",
-  "last_checked": "2026-10-27T22:20:27+00:00",
+  "last_checked": "2026-10-28T05:49:13+00:00",
   "supervisor": "Dr Dimitrios Bikos",
-  "id": "2d2fa0ab3a"
+  "ai_score": 6,
+  "ai_reason": "Il progetto riguarda machine learning e modellazione di materiali, affine all'ingegneria aerospaziale ma focalizzato sui solidi anziché sulla fluidodinamica.",
+  "ai_summary": "Il dottorando studierà la meccanica computazionale e la modellazione data-driven di materiali compositi. Si concentrerà sullo sviluppo di modelli di danno informati sui difetti e sull'uso di machine learning fisico e interpretabile.",
+  "ai_tags": [
+   "Machine Learning",
+   "Modellazione Data-Driven",
+   "Meccanica Computazionale"
+  ],
+  "id": "2d2fa0ab3a",
+  "topics": [
+   "ml",
+   "altro"
+  ]
  },
  {
   "url": "https://www.jobs.ac.uk/job/DTJ736/phd-studentship-cfd-of-particle-based-long-duration-energy-storage-systems",
@@ -23,15 +399,28 @@
   "deadline": "2027-01-23",
   "keywords": [
    "cfd",
-   "aerospace",
    "aerospace engineering",
+   "aerospace",
    "energy"
   ],
   "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+aerospace&sortOrder=1&pageSize=25&startIndex=1",
   "first_seen": "2026-10-26T22:44:26+00:00",
-  "last_checked": "2026-10-27T22:20:27+00:00",
+  "last_checked": "2026-10-28T05:49:07+00:00",
   "supervisor": "Prof Yasser Mahmoudi Larimi",
-  "id": "b6a6e84e6e"
+  "ai_score": 10,
+  "ai_reason": "Perfetto per il profilo: combina fluidodinamica computazionale (CFD), termofluidodinamica, intelligenza artificiale e PINN per sistemi energetici.",
+  "ai_summary": "Il dottorando svilupperà modelli CFD ad alta fedeltà e framework di intelligenza artificiale informata dalla fisica (PINN) per studiare il comportamento termofluidodinamico e il trasporto di particelle nei sistemi di accumulo di energia termica. La ricerca prevede l'uso di tecniche numeriche avanzate e modelli ridotti per consentire l'ottimizzazione e il controllo in tempo reale.",
+  "ai_tags": [
+   "CFD",
+   "ML + fluidi",
+   "Intelligenza Artificiale",
+   "Termofluidodinamica"
+  ],
+  "id": "b6a6e84e6e",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://eng.ox.ac.uk/study/research-studentships/oxford-ubs-centre-for-applied-ai-dphil-studentship-future-ai-systems-for-finance",
@@ -39,12 +428,25 @@
   "title": "Oxford–UBS Centre for Applied AI DPhil Studentship: Future AI Systems for Finance",
   "snippet": "Oxford–UBS Centre for Applied AI DPhil Studentship: Future AI Systems for Finance",
   "deadline": "2026-12-02",
-  "keywords": [],
+  "keywords": [
+   "ai"
+  ],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-26T13:09:34+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Professor Noa Zilberman",
-  "id": "3f4bd93eb2"
+  "ai_score": 3,
+  "ai_reason": "Il dottorato riguarda l'intelligenza artificiale applicata alla finanza e ai sistemi di calcolo, non alla fluidodinamica o all'ingegneria aerospaziale.",
+  "ai_summary": "Il candidato svilupperà sistemi di intelligenza artificiale di nuova generazione per il settore finanziario, studiando l'efficacia delle infrastrutture di calcolo, i co-progetti hardware-software e l'orchestrazione dei servizi AI. La ricerca si svolge in un contesto interdisciplinare tra ingegneria, informatica e finanza.",
+  "ai_tags": [
+   "Intelligenza Artificiale",
+   "Sistemi di Calcolo",
+   "Finanza"
+  ],
+  "id": "3f4bd93eb2",
+  "topics": [
+   "ml"
+  ]
  },
  {
   "url": "https://www.jobs.ac.uk/job/DTJ736/phd-studentship-dynamic-analysis-of-particle-based-long-duration-energy-storage-systems",
@@ -61,7 +463,19 @@
   "first_seen": "2026-10-23T17:13:59+00:00",
   "last_checked": "2026-10-26T13:11:11+00:00",
   "supervisor": "Prof Yasser Mahmoudi Larimi",
-  "id": "a113848837"
+  "ai_score": 10,
+  "ai_reason": "Perfetta corrispondenza con la fluidodinamica computazionale, il trasferimento di calore e l'intelligenza artificiale physics-informed applicate all'ingegneria.",
+  "ai_summary": "Il progetto sviluppa modelli CFD ad alta fedeltà e intelligenza artificiale physics-informed per studiare il comportamento termo-fluidodinamico e il trasporto di particelle nei sistemi di accumulo di energia termica a lungo termine. Il candidato utilizzerà tecniche numeriche avanzate e reti neurali informate dalla fisica per l'ottimizzazione e il controllo in tempo reale.",
+  "ai_tags": [
+   "CFD",
+   "ML + fluidi",
+   "trasferimento di calore",
+   "energia"
+  ],
+  "id": "a113848837",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.jobs.ac.uk/job/DTG045/phd-studentship-part-time-in-control-systems-and-robotics-postgraduate-research-teaching-associate",
@@ -74,9 +488,20 @@
   ],
   "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+aerospace&sortOrder=1&pageSize=25&startIndex=1",
   "first_seen": "2026-10-22T11:59:34+00:00",
-  "last_checked": "2026-10-27T22:20:22+00:00",
+  "last_checked": "2026-10-28T05:48:57+00:00",
   "supervisor": "Dr Joaquin Carrasco",
-  "id": "fc21ca9262"
+  "ai_score": 6,
+  "ai_reason": "Il dottorato riguarda i sistemi di controllo e la robotica, con possibili applicazioni nel settore aerospaziale, pur non focalizzandosi direttamente su fluidodinamica o machine learning.",
+  "ai_summary": "Il candidato svolgerà un dottorato part-time combinando attività di ricerca e insegnamento per una durata di 70 mesi. La ricerca si concentrerà sui sistemi di controllo, robotica e sistemi autonomi, con tematiche definite in base agli interessi del candidato e alle competenze del gruppo.",
+  "ai_tags": [
+   "robotica",
+   "sistemi di controllo",
+   "aerospaziale"
+  ],
+  "id": "fc21ca9262",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-engineering-biology",
@@ -87,9 +512,19 @@
   "keywords": [],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-21T11:55:21+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Prof Jean-Baptiste Lugagne",
-  "id": "a9d65e3734"
+  "ai_score": 3,
+  "ai_reason": "Il dottorato riguarda la biologia cellulare e la teoria del controllo applicata alla biologia, piuttosto che la fluidodinamica o l'ingegneria aerospaziale.",
+  "ai_summary": "Il progetto di dottorato esplora l'intersezione tra ingegneria, biologia, teoria del controllo e machine learning. Si focalizza sullo sviluppo di modelli di comportamento cellulare, strategie di controllo a retroazione e strumenti sperimentali come la microfluidica per applicazioni biologiche.",
+  "ai_tags": [
+   "Machine Learning",
+   "Teoria del controllo",
+   "Microfluidica",
+   "Biologia cellulare"
+  ],
+  "id": "a9d65e3734",
+  "topics": []
  },
  {
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-on-sustainable-and-circular-ai-systems",
@@ -97,12 +532,25 @@
   "title": "Research Studentship on Sustainable and Circular AI Systems",
   "snippet": "Research Studentship on Sustainable and Circular AI Systems",
   "deadline": "2026-12-02",
-  "keywords": [],
+  "keywords": [
+   "ai"
+  ],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-21T11:55:21+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Prof Lucia Corsini",
-  "id": "e1e95fdbf4"
+  "ai_score": 3,
+  "ai_reason": "Riguarda l'IA ma applicata alla sostenibilita dell'hardware e non alla fluidodinamica o all'aerospaziale.",
+  "ai_summary": "Il dottorando studiera come supportare la crescita dell'intelligenza artificiale tramite hardware e infrastrutture piu sostenibili e circolari. Svilupperà approcci per connettere le performance di calcolo dell'IA con i materiali fisici e le strategie di economia circolare.",
+  "ai_tags": [
+   "IA",
+   "economia circolare",
+   "sostenibilita"
+  ],
+  "id": "e1e95fdbf4",
+  "topics": [
+   "ml"
+  ]
  },
  {
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-geotechnical-engineering",
@@ -113,9 +561,18 @@
   "keywords": [],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-20T11:43:41+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Professor Jonathan Knappett · Professor Chris Martin",
-  "id": "893732137d"
+  "ai_score": 3,
+  "ai_reason": "La posizione riguarda l'ingegneria geotecnica e fondazioni biomimetiche, totalmente fuori dal focus del candidato su fluidodinamica e machine learning.",
+  "ai_summary": "Il dottorando studierà il comportamento di sistemi di radici di alberi sotto vari carichi usando modellazione numerica e test fisici. I risultati saranno usati per sviluppare nuovi concetti di fondazioni biomimetiche efficienti e a basso impatto di carbonio per varie applicazioni ingegneristiche.",
+  "ai_tags": [
+   "geotecnica",
+   "modellazione numerica",
+   "strutturale"
+  ],
+  "id": "893732137d",
+  "topics": []
  },
  {
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-theory-optimization-and-learning",
@@ -126,9 +583,14 @@
   "keywords": [],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-20T11:43:41+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Prof Antonis Papachristodoulou · Prof Kostas Margellos",
-  "id": "16ff23bb35"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "16ff23bb35",
+  "topics": []
  },
  {
   "url": "https://www.jobs.ac.uk/job/DTG433/phd-studentship-dynamic-performance-and-ai-driven-optimisation-of-hybrid-energy-systems-for-net-zero",
@@ -143,7 +605,19 @@
   "first_seen": "2026-10-18T21:58:09+00:00",
   "last_checked": "2026-10-22T11:59:39+00:00",
   "supervisor": "Dr Ioanna Dimitriou · Dr Oliver Fisher",
-  "id": "c0f511adf6"
+  "ai_score": 6,
+  "ai_reason": "Il progetto riguarda sistemi energetici e AI, ma è focalizzato su termodinamica e impianti piuttosto che su fluidodinamica o aerodinamica avanzata.",
+  "ai_summary": "Il dottorando svilupperà modelli termodinamici e simulazioni transitorie di sistemi energetici ibridi, integrando strategie di ottimizzazione guidate dall'intelligenza artificiale. L'obiettivo è supportare la produzione di combustibili a emissioni zero e migliorare la stabilità della rete elettrica.",
+  "ai_tags": [
+   "sistemi energetici",
+   "intelligenza artificiale",
+   "termodinamica",
+   "ottimizzazione"
+  ],
+  "id": "c0f511adf6",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.jobs.ac.uk/job/DTE295/phd-studentship-multiscale-optimisation-of-aperiodic-lattice-metamaterials-for-spatially-programmable-printed-structures",
@@ -152,14 +626,26 @@
   "snippet": "PhD Studentship: Multiscale Optimisation of Aperiodic Lattice Metamaterials for Spatially-programmable Printed Structures Mechanical and Aerospace Engineering The University of Manchester Location: Manchester Salary: £20,780 annual tax free stipend and tuition fees Date Placed: 0",
   "deadline": "2027-01-06",
   "keywords": [
-   "aerospace",
-   "aerospace engineering"
+   "aerospace engineering",
+   "aerospace"
   ],
   "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+aerospace&sortOrder=1&pageSize=25&startIndex=1",
   "first_seen": "2026-10-18T21:58:05+00:00",
-  "last_checked": "2026-10-27T22:20:22+00:00",
+  "last_checked": "2026-10-28T05:48:57+00:00",
   "supervisor": "Dr Chikwesiri Imediegwu",
-  "id": "6004b0ac00"
+  "ai_score": 7,
+  "ai_reason": "Il progetto unisce ingegneria aerospaziale, ottimizzazione strutturale e machine learning, toccando parzialmente gli interessi dello studente nel ML applicato.",
+  "ai_summary": "Il dottorando svilupperà nuovi strumenti di ottimizzazione multiscala per metamateriali reticolari aperiodici. La ricerca integrerà la modellazione basata sulla fisica con il machine learning per esplorare ampi spazi di progettazione microarchitetturale.",
+  "ai_tags": [
+   "Machine Learning",
+   "Ottimizzazione",
+   "Ingegneria Aerospaziale",
+   "Metamateriali"
+  ],
+  "id": "6004b0ac00",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.jobs.ac.uk/job/DTD939/phd-studentship-optimising-sustainable-bioplastic-supply-chains-modelling-nanocellulose-production-in-the-uk",
@@ -168,14 +654,25 @@
   "snippet": "PhD Studentship - Optimising Sustainable Bioplastic Supply Chains: Modelling Nanocellulose Production in the UK Mechanical and Aerospace Engineering The University of Manchester Location: Manchester Salary: Not Specified Date Placed: 05 Oct Closes 05 Jan",
   "deadline": "2027-01-05",
   "keywords": [
-   "aerospace",
-   "aerospace engineering"
+   "aerospace engineering",
+   "aerospace"
   ],
   "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+aerospace&sortOrder=1&pageSize=25&startIndex=1",
   "first_seen": "2026-10-18T21:58:05+00:00",
-  "last_checked": "2026-10-27T22:20:22+00:00",
+  "last_checked": "2026-10-28T05:48:57+00:00",
   "supervisor": "Dr Samantha Islam · Prof Paul Mativenga",
-  "id": "266f15fcb9"
+  "ai_score": 3,
+  "ai_reason": "Il progetto riguarda la modellazione di catene di fornitura e bioplastiche, lontano dalla fluidodinamica e dal machine learning applicato ai fluidi.",
+  "ai_summary": "Il dottorando svilupperà modelli computazionali avanzati per ottimizzare le catene di fornitura di bioplastiche e la produzione di nanocellulosa nel Regno Unito. La ricerca analizzerà opzioni di materie prime, configurazioni di filiera e percorsi di processo per migliorare la sostenibilità e la redditività.",
+  "ai_tags": [
+   "modellazione",
+   "sostenibilità",
+   "ingegneria industriale"
+  ],
+  "id": "266f15fcb9",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.jobs.ac.uk/job/DTB963/phd-studentship-mineloop-investigating-minewater-systems-using-closed-loop-geothermal-technologies",
@@ -184,14 +681,25 @@
   "snippet": "PhD Studentship - MINELOOP: Investigating MINEwater Systems using Closed-LOOP Geothermal Technologies Mechanical and Aerospace Engineering The University of Manchester Location: Manchester Salary: £21,805 Date Placed: 28 Sep Closes 28 Dec",
   "deadline": "2026-12-28",
   "keywords": [
-   "aerospace",
-   "aerospace engineering"
+   "aerospace engineering",
+   "aerospace"
   ],
   "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+aerospace&sortOrder=1&pageSize=25&startIndex=1",
   "first_seen": "2026-10-18T21:58:05+00:00",
-  "last_checked": "2026-10-27T22:20:22+00:00",
+  "last_checked": "2026-10-28T05:48:57+00:00",
   "supervisor": "Dr Christopher Brown",
-  "id": "5744206aa2"
+  "ai_score": 6,
+  "ai_reason": "Tema energetico e numerico in ingegneria meccanica, ma senza machine learning o fluidodinamica avanzata.",
+  "ai_summary": "Il dottorando studierà i sistemi geotermici a circuito chiuso nelle acque di miniera tramite modellazione numerica in FEFLOW o COMSOL e analisi di dati sperimentali. Verranno esaminati gli scambiatori di calore e l'efficienza termica per sviluppare soluzioni energetiche a basse emissioni.",
+  "ai_tags": [
+   "modellazione numerica",
+   "energia geotermica",
+   "termofluidodinamica"
+  ],
+  "id": "5744206aa2",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.jobs.ac.uk/job/DSY802/mechanical-and-aerospace-engineering-pgrtas-enhanced-phd-studentship",
@@ -200,14 +708,25 @@
   "snippet": "Mechanical and Aerospace Engineering PGRTAs: Enhanced PhD Studentship The University of Manchester Location: Manchester Salary: £13,200.80 annual tax-free part time stipend Date Placed: 22 Sep Closes 15 Nov",
   "deadline": "2026-11-15",
   "keywords": [
-   "aerospace",
-   "aerospace engineering"
+   "aerospace engineering",
+   "aerospace"
   ],
   "source_url": "https://www.jobs.ac.uk/search/?keywords=phd+aerospace&sortOrder=1&pageSize=25&startIndex=1",
   "first_seen": "2026-10-18T21:58:05+00:00",
-  "last_checked": "2026-10-27T22:20:22+00:00",
+  "last_checked": "2026-10-28T05:48:57+00:00",
   "supervisor": null,
-  "id": "57ffb980e4"
+  "ai_score": 6,
+  "ai_reason": "Offerta di dottorato in ingegneria meccanica e aerospaziale con aree affini, ma richiede di proporre un progetto specifico tra temi ampi.",
+  "ai_summary": "Il dottorato combina ricerca e didattica (PGRTA) per un periodo di 70 mesi in discipline aerospaziali o meccaniche. Il candidato deve proporre un progetto di ricerca scegliendo tra diverse aree tematiche strategiche e contattare un membro dello staff.",
+  "ai_tags": [
+   "ingegneria meccanica",
+   "ingegneria aerospaziale",
+   "dottorato"
+  ],
+  "id": "57ffb980e4",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.jobs.ac.uk/job/DSW590/phd-studentship-arc-fault-analysis-in-modern-aerospace-power-drive-systems",
@@ -222,7 +741,18 @@
   "first_seen": "2026-10-18T21:58:05+00:00",
   "last_checked": "2026-10-27T12:19:16+00:00",
   "supervisor": "Dr. Djurovic",
-  "id": "1eb6cc61a6"
+  "ai_score": 3,
+  "ai_reason": "Il progetto riguarda l'ingegneria elettrica e i sistemi di potenza aeronautici, non la fluidodinamica o l'IA.",
+  "ai_summary": "Il candidato sviluppera un sistema di test di laboratorio per emulare guasti da arco elettrico nei sistemi di azionamento di potenza aerospaziali. Il lavoro comprende la ricerca sperimentale per caratterizzare l'innesco dei guasti e mitigare i rischi in collaborazione con Rolls-Royce.",
+  "ai_tags": [
+   "aerospaziale",
+   "sperimentale",
+   "ingegneria elettrica"
+  ],
+  "id": "1eb6cc61a6",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/aeronautics/phd/Computational-Simulation-Driven-In-Vivo-Microvascular-Characterisation.docx",
@@ -233,9 +763,18 @@
   "keywords": [],
   "source_url": "https://www.imperial.ac.uk/aeronautics/study/phd/phd-opportunities-and-funding/",
   "first_seen": "2026-10-18T21:57:46+00:00",
-  "last_checked": "2026-10-27T22:20:06+00:00",
+  "last_checked": "2026-10-28T05:48:42+00:00",
   "supervisor": "Dr Andrew Scott · Professor Denis Doorly",
-  "id": "e53190431c"
+  "ai_score": 6,
+  "ai_reason": "Il progetto coinvolge la simulazione computazionale in ambito aerospaziale/bioingegneristico, ma manca una chiara connessione al machine learning.",
+  "ai_summary": "Il progetto si occupa di caratterizzazione microvascolare in-vivo guidata da simulazioni computazionali. Coinvolge il dipartimento di aeronautica tra i supervisori.",
+  "ai_tags": [
+   "CFD",
+   "simulazione",
+   "bioingegneria"
+  ],
+  "id": "e53190431c",
+  "topics": []
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1655513",
@@ -244,14 +783,20 @@
   "snippet": "6 PhD Studentships in Mechanics and Characterisation of Next Generation EAF Recycled Steels for Forming and Welding Applications (various supervisors) Supervisors: Jun Jiang, Liliang Wang, Dan Balint, Catrin Davies, Zhusheng Shi Deadline for applying: until posts filled EPSRC & T",
   "deadline": null,
   "keywords": [
-   "mechanical engineering",
-   "structural"
+   "mechanical engineering"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Prof Li-Liang Wang",
-  "id": "415936d8f3"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "415936d8f3",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1583292",
@@ -266,9 +811,17 @@
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Janet Wong",
-  "id": "91f95b43ce"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "91f95b43ce",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1736020",
@@ -277,15 +830,21 @@
   "snippet": "PhD Studentship in Computer Simulations of Thermal Fatigue in Aerospace/Nuclear materials (Dr Christos Skamniotis) Supervisor: Dr Christos Skamniotis Deadline for applying: until post filled Applications are invited for a fully funded research studentship in the field of Computat",
   "deadline": null,
   "keywords": [
-   "aerospace",
    "mechanical engineering",
-   "structural"
+   "aerospace"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Dr Christos Skamniotis",
-  "id": "dbe2d4931f"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "dbe2d4931f",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1775626",
@@ -294,14 +853,24 @@
   "snippet": "PhD Studentship in Control for Autonomous Driving (Dr Johannes Kohler) Supervisor: Dr Johannes Kohler Develop the next generation of reliable autonomous driving systems. Applications are invited for a fully funded PhD studentship in the field of control within the Department of M",
   "deadline": null,
   "keywords": [
+   "machine learning",
+   "data-driven",
    "mechanical engineering",
    "robotics"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Dr Johannes Kohler",
-  "id": "86fcffaa2a"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "86fcffaa2a",
+  "topics": [
+   "ml",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1632639",
@@ -310,14 +879,24 @@
   "snippet": "PhD Studentship in Critical Heat Flux Prediction with Adaptive, Data-driven Uncertainty Quantification (Mike Bluck) Supervisors: Dr Yu Duan, Dr Michael Bluck (Mechanical Engineering) Deadline for applying: until post filled Applications are invited for a PhD research studentship ",
   "deadline": null,
   "keywords": [
+   "machine learning",
+   "data-driven",
    "mechanical engineering",
    "energy"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Mike Bluck",
-  "id": "2f3d6aeeb9"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "2f3d6aeeb9",
+  "topics": [
+   "ml",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1775612",
@@ -326,14 +905,26 @@
   "snippet": "PhD Studentship in Digital Twin Development for Mechanical Fragmentation in Sustainable Plastics Recycling (Prof Maria Charalambides) Supervisor: Professor Maria Charalambides Applications are invited for an exciting fully funded PhD studentship at Imperial College London in the ",
   "deadline": null,
   "keywords": [
+   "machine learning",
+   "ai",
+   "data-driven",
+   "surrogate model",
    "mechanical engineering",
    "energy"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Prof Maria Charalambides",
-  "id": "e9a65f5301"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "e9a65f5301",
+  "topics": [
+   "ml",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1738441",
@@ -342,14 +933,25 @@
   "snippet": "PhD Studentship in Heat Transfer-Thermal Stress Modelling of Leading edges in Hypersonic Vehicles (Dr Christos Skamniotis) Supervisor: Dr Christos Skamniotis Deadline for applying: until post filled Applications are invited for a fully funded research studentship for 4 years in t",
   "deadline": null,
   "keywords": [
-   "mechanical engineering",
-   "heat transfer"
+   "heat transfer",
+   "reduced-order",
+   "mechanical engineering"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Dr Christos Skamniotis",
-  "id": "fc727d1785"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "fc727d1785",
+  "topics": [
+   "ml+fluidi",
+   "fluidi",
+   "ml",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1822905",
@@ -364,9 +966,17 @@
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Fred Cegla",
-  "id": "a0d5064221"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "a0d5064221",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1556153",
@@ -380,9 +990,16 @@
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Monica Marinescu",
-  "id": "84bcf1ae2c"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "84bcf1ae2c",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1815002",
@@ -391,16 +1008,23 @@
   "snippet": "PhD Studentship in Next-Gen Blade vibration measurement system (Christoph Schwingshackl) Supervisor: Professor Christoph Schwingshackl Shape the Future of Aero-Engines Join Imperial College London in Solving One of Aviation's Toughest Challenges Are you ready to push the boundari",
   "deadline": null,
   "keywords": [
-   "turbomachinery",
-   "aerospace",
    "mechanical engineering",
-   "aerospace engineering"
+   "aerospace engineering",
+   "aerospace",
+   "turbomachinery"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Christoph Schwingshackl",
-  "id": "3734faf05b"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "3734faf05b",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1741015",
@@ -416,9 +1040,16 @@
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Giada Risso",
-  "id": "edf04a8d1d"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "edf04a8d1d",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1668332",
@@ -427,16 +1058,23 @@
   "snippet": "PhD Studentship in Reducing methane emissions from Liquified Natural Gas (LNG) ship (Yannis Hardalupas) Supervisors: Prof Yannis Hardalupas Deadline for applying: until post filled Applications are invited for a research studentship in the field of Thermofluids and Sustainable Ma",
   "deadline": null,
   "keywords": [
-   "fluid",
    "combustion",
    "mechanical engineering",
    "energy"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Yannis Hardalupas",
-  "id": "053bd38b26"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "053bd38b26",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1239175",
@@ -452,9 +1090,17 @@
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Dr Min Yu",
-  "id": "f9fe321dde"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "f9fe321dde",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1736372",
@@ -467,9 +1113,16 @@
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Dr Jun Jiang",
-  "id": "374e2097ab"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "374e2097ab",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1583290",
@@ -484,9 +1137,17 @@
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Janet Wong",
-  "id": "c268c2e8fc"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "c268c2e8fc",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_965161",
@@ -497,13 +1158,22 @@
   "keywords": [
    "fluid",
    "combustion",
+   "multiphase",
    "mechanical engineering"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Prof Aleiferis",
-  "id": "f9a6839926"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "f9a6839926",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1835104",
@@ -517,9 +1187,17 @@
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Prof Marc Masen",
-  "id": "1a9a2fcced"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "1a9a2fcced",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1451600",
@@ -534,9 +1212,17 @@
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Prof Daniele Dini",
-  "id": "96b6e6c568"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "96b6e6c568",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1451290",
@@ -545,13 +1231,23 @@
   "snippet": "PhD Studentship in Tribology: Metal Forming: Next Generation Patterned Steel Floors for Best in Class Slip Resistance Performance(Prof Daniele Dini) Supervisor: Daniele Dini Deadline for applying: until post filled Applications are invited for a research studentship in the field ",
   "deadline": null,
   "keywords": [
+   "machine learning",
+   "data-driven",
    "mechanical engineering"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Prof Daniele Dini",
-  "id": "930471eb8b"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "930471eb8b",
+  "topics": [
+   "ml",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1772529",
@@ -561,15 +1257,26 @@
   "deadline": null,
   "keywords": [
    "fluid",
+   "data-driven",
    "mechanical engineering",
    "energy",
    "robotics"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Prof Daniele Dini",
-  "id": "a91c7e1c2b"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "a91c7e1c2b",
+  "topics": [
+   "ml+fluidi",
+   "fluidi",
+   "ml",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1743103",
@@ -583,9 +1290,17 @@
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Dr Janet Wong",
-  "id": "fa283229ec"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "fa283229ec",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1404780",
@@ -598,15 +1313,26 @@
    "fluid",
    "instability",
    "combustion",
+   "machine learning",
    "mechanical engineering",
    "energy",
    "acoustics"
   ],
   "source_url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
   "first_seen": "2026-10-18T21:57:41+00:00",
-  "last_checked": "2026-10-27T22:20:01+00:00",
+  "last_checked": "2026-10-28T05:48:37+00:00",
   "supervisor": "Prof Aimee Morgans",
-  "id": "01b6ffebff"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "01b6ffebff",
+  "topics": [
+   "ml+fluidi",
+   "fluidi",
+   "ml",
+   "altro"
+  ]
  },
  {
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-and-engineering-biology",
@@ -617,9 +1343,14 @@
   "keywords": [],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-18T21:57:23+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Prof Harrison Steel · Prof Antonis Papachristodoulou",
-  "id": "fa87d82e4c"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "fa87d82e4c",
+  "topics": []
  },
  {
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-and-neuroscience",
@@ -630,9 +1361,14 @@
   "keywords": [],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-18T21:57:23+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Dr Thiago B. Burghi",
-  "id": "deb71bc641"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "deb71bc641",
+  "topics": []
  },
  {
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-engineering",
@@ -643,9 +1379,14 @@
   "keywords": [],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-18T21:57:23+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Prof Idris Kempf",
-  "id": "984ca7618a"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "984ca7618a",
+  "topics": []
  },
  {
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-mechanics-and-physics-of-soft-materials",
@@ -656,9 +1397,14 @@
   "keywords": [],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-18T21:57:23+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Prof Laurence Brassart",
-  "id": "18c249060f"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "18c249060f",
+  "topics": []
  },
  {
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-engineering",
@@ -669,9 +1415,14 @@
   "keywords": [],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-18T21:57:23+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Prof Antonio Elia Forte",
-  "id": "20800462a4"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "20800462a4",
+  "topics": []
  },
  {
   "url": "https://www.materials.ox.ac.uk/article/thermomigration-of-hydrogen-in-reactor-fuel-cladding-materials",
@@ -682,9 +1433,14 @@
   "keywords": [],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-18T21:57:23+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Felix Hofmann & Martínez-Pañeda",
-  "id": "055cd47d1a"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "055cd47d1a",
+  "topics": []
  },
  {
   "url": "https://www.materials.ox.ac.uk/article/machine-learning-and-crystal-plasticity-modelling-of-hydrides-in-zr-alloy-materials-for-nucl",
@@ -692,12 +1448,21 @@
   "title": "Machine Learning and Crystal Plasticity Modelling of Hydrides in Zr-alloy Materials for Nuclear Fuel Cladding",
   "snippet": "This project addresses hydride precipitation and irradiation damage in zirconium alloys for nuclear fuel cladding, where it can lead to cracking and material degradation. Current models rely on simplified assumptions and fail to capture key effects such as microstructure, stress,",
   "deadline": null,
-  "keywords": [],
+  "keywords": [
+   "machine learning"
+  ],
   "source_url": "https://eng.ox.ac.uk/study/research-studentships",
   "first_seen": "2026-10-18T21:57:23+00:00",
-  "last_checked": "2026-10-27T22:18:49+00:00",
+  "last_checked": "2026-10-28T05:47:24+00:00",
   "supervisor": "Edmund Tarleton",
-  "id": "beea1b30a5"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "beea1b30a5",
+  "topics": [
+   "ml"
+  ]
  },
  {
   "url": "https://careers.epfl.ch/job/Lausanne-PhD-Student-Position-in-Numerical-Modeling-and-Design-of-Plasmonic-Crystals-for-Solar-Energy/1165576555/",
@@ -710,9 +1475,16 @@
   ],
   "source_url": "https://careers.epfl.ch/go/PhD-Student/505174/",
   "first_seen": "2026-10-18T21:57:16+00:00",
-  "last_checked": "2026-10-27T22:18:43+00:00",
+  "last_checked": "2026-10-28T05:46:44+00:00",
   "supervisor": "Prof. Andreas Schüler",
-  "id": "ba489d7f13"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "ba489d7f13",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://careers.epfl.ch/job/Lausanne-PhD-Student-Position-in-Fabrication-and-Characterization-of-Plasmonic-Crystals-for-Solar-Energy/1165576355/",
@@ -725,9 +1497,16 @@
   ],
   "source_url": "https://careers.epfl.ch/go/PhD-Student/505174/",
   "first_seen": "2026-10-18T21:57:16+00:00",
-  "last_checked": "2026-10-27T22:18:43+00:00",
+  "last_checked": "2026-10-28T05:46:44+00:00",
   "supervisor": "Prof. Andreas Schüler",
-  "id": "bc3bfa38ef"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "bc3bfa38ef",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://careers.epfl.ch/job/Neuch%C3%A2tel-PhD-position-in-Aerodynamic-Design-of-Small-Scale-Turbomachinery/1165538855/",
@@ -736,14 +1515,22 @@
   "snippet": "PhD position in Aerodynamic Design of Small-Scale Turbomachinery PhD position in Aerodynamic Design of Small-Scale Turbomachinery PhD Student Neuchâtel CDD Neuchâtel PhD Student CDD",
   "deadline": null,
   "keywords": [
-   "turbomachinery",
-   "aerodynamic"
+   "aerodynamic",
+   "turbomachinery"
   ],
   "source_url": "https://careers.epfl.ch/go/PhD-Student/505174/",
   "first_seen": "2026-10-18T21:57:16+00:00",
-  "last_checked": "2026-10-27T22:18:43+00:00",
+  "last_checked": "2026-10-28T05:46:44+00:00",
   "supervisor": null,
-  "id": "7b9bc8fc5e"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "7b9bc8fc5e",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://careers.epfl.ch/job/Neuch%C3%A2tel-PhD-position-in-Aerodynamic-Design-of-Small-Scale-Turbomachinery-2/1165538555/",
@@ -752,14 +1539,22 @@
   "snippet": "PhD position in Aerodynamic Design of Small-Scale Turbomachinery -2 PhD position in Aerodynamic Design of Small-Scale Turbomachinery -2 PhD Student Neuchâtel CDD Neuchâtel PhD Student CDD",
   "deadline": null,
   "keywords": [
-   "turbomachinery",
-   "aerodynamic"
+   "aerodynamic",
+   "turbomachinery"
   ],
   "source_url": "https://careers.epfl.ch/go/PhD-Student/505174/",
   "first_seen": "2026-10-18T21:57:16+00:00",
-  "last_checked": "2026-10-27T22:18:43+00:00",
+  "last_checked": "2026-10-28T05:46:44+00:00",
   "supervisor": null,
-  "id": "f4cca40661"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "f4cca40661",
+  "topics": [
+   "fluidi",
+   "altro"
+  ]
  },
  {
   "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_3eOPUzfFDYonPI1qcr",
@@ -774,7 +1569,14 @@
   "first_seen": "2026-10-18T21:57:15+00:00",
   "last_checked": "2026-10-22T04:54:09+00:00",
   "supervisor": "Prof. Markus Bambach",
-  "id": "24a5c4a73b"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "24a5c4a73b",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_AW85uj6ZkjudWY0Yj2",
@@ -787,9 +1589,16 @@
   ],
   "source_url": "https://jobs.ethz.ch/",
   "first_seen": "2026-10-18T21:57:15+00:00",
-  "last_checked": "2026-10-27T22:18:42+00:00",
+  "last_checked": "2026-10-28T05:46:40+00:00",
   "supervisor": null,
-  "id": "f1478e5287"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "f1478e5287",
+  "topics": [
+   "fluidi"
+  ]
  },
  {
   "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_zBtPwWHnM0fumyTFso",
@@ -802,9 +1611,16 @@
   ],
   "source_url": "https://jobs.ethz.ch/",
   "first_seen": "2026-10-18T21:57:15+00:00",
-  "last_checked": "2026-10-27T22:18:42+00:00",
+  "last_checked": "2026-10-28T05:46:40+00:00",
   "supervisor": null,
-  "id": "7991b34fb0"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "7991b34fb0",
+  "topics": [
+   "altro"
+  ]
  },
  {
   "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_d3lDgHgDI4ewDFQ1Fb",
@@ -817,8 +1633,15 @@
   ],
   "source_url": "https://jobs.ethz.ch/",
   "first_seen": "2026-10-18T21:57:15+00:00",
-  "last_checked": "2026-10-27T22:18:42+00:00",
+  "last_checked": "2026-10-28T05:46:40+00:00",
   "supervisor": "Prof. Robert Katzschmann",
-  "id": "8f097f217a"
+  "ai_score": null,
+  "ai_reason": null,
+  "ai_summary": null,
+  "ai_tags": [],
+  "id": "8f097f217a",
+  "topics": [
+   "altro"
+  ]
  }
 ]
