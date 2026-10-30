@@ -50,13 +50,13 @@
     "name": "Portale lavoro ETH (tutte le posizioni, incl. dottorato)",
     "url": "https://jobs.ethz.ch/",
     "type": "listing",
-    "last_checked": "2026-10-30T05:53:58+00:00"
+    "last_checked": "2026-10-30T13:00:19+00:00"
    },
    {
     "name": "Dottorato ETH (amministrazione dottorale)",
     "url": "https://ethz.ch/en/doctorate.html",
     "type": "info",
-    "last_checked": "2026-10-30T05:53:59+00:00"
+    "last_checked": "2026-10-30T13:00:19+00:00"
    }
   ]
  },
@@ -137,19 +137,19 @@
     "name": "Offerte EPFL — PhD Student",
     "url": "https://careers.epfl.ch/go/PhD-Student/505174/",
     "type": "listing",
-    "last_checked": "2026-10-30T05:54:00+00:00"
+    "last_checked": "2026-10-30T13:00:20+00:00"
    },
    {
     "name": "Scuola dottorale EDME (Mechanics)",
     "url": "https://www.epfl.ch/education/phd/edme-mechanics/",
     "type": "info",
-    "last_checked": "2026-10-30T05:54:02+00:00"
+    "last_checked": "2026-10-30T13:00:22+00:00"
    },
    {
     "name": "Ammissione PhD EPFL (criteri e scadenze)",
     "url": "https://www.epfl.ch/education/admission/admission-2/phd-admission-criteria-and-application/",
     "type": "info",
-    "last_checked": "2026-10-30T05:54:07+00:00"
+    "last_checked": "2026-10-30T13:00:26+00:00"
    }
   ]
  },
@@ -205,19 +205,19 @@
     "name": "Research studentships Engineering Science",
     "url": "https://eng.ox.ac.uk/study/research-studentships",
     "type": "listing",
-    "last_checked": "2026-10-30T05:54:08+00:00"
+    "last_checked": "2026-10-30T13:00:27+00:00"
    },
    {
     "name": "Posti vacanti Engineering Science",
     "url": "https://eng.ox.ac.uk/jobs/",
     "type": "listing",
-    "last_checked": "2026-10-30T05:54:13+00:00"
+    "last_checked": "2026-10-30T13:00:32+00:00"
    },
    {
     "name": "DPhil — candidature Engineering Science",
     "url": "https://eng.ox.ac.uk/study/postgraduate/applications/",
     "type": "info",
-    "last_checked": "2026-10-30T05:54:19+00:00"
+    "last_checked": "2026-10-30T13:00:37+00:00"
    }
   ]
  },
@@ -379,19 +379,19 @@
     "name": "Current PhD studentships — Mechanical Engineering",
     "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/",
     "type": "listing",
-    "last_checked": "2026-10-30T05:55:22+00:00"
+    "last_checked": "2026-10-30T13:01:39+00:00"
    },
    {
     "name": "PhD opportunities and funding — Aeronautics",
     "url": "https://www.imperial.ac.uk/aeronautics/study/phd/phd-opportunities-and-funding/",
     "type": "listing",
-    "last_checked": "2026-10-30T05:55:27+00:00"
+    "last_checked": "2026-10-30T13:01:44+00:00"
    },
    {
     "name": "PhD application process — Aeronautics",
     "url": "https://www.imperial.ac.uk/aeronautics/study/phd/application-process/",
     "type": "info",
-    "last_checked": "2026-10-30T05:55:32+00:00"
+    "last_checked": "2026-10-30T13:01:49+00:00"
    }
   ]
  },
@@ -465,13 +465,13 @@
     "name": "AeroAstro graduate admission",
     "url": "https://aeroastro.mit.edu/education/graduate-admission/",
     "type": "info",
-    "last_checked": "2026-10-30T05:55:34+00:00"
+    "last_checked": "2026-10-30T13:01:50+00:00"
    },
    {
     "name": "MechE — Applying for admission",
     "url": "https://meche.mit.edu/education/prospective-students/graduate/apply",
     "type": "info",
-    "last_checked": "2026-10-30T05:55:35+00:00"
+    "last_checked": "2026-10-30T13:01:50+00:00"
    }
   ]
  },
@@ -509,7 +509,7 @@
     "name": "PhD Materials Science & Mechanical Engineering (scheda programma)",
     "url": "https://www.harvard.edu/programs/materials-science-and-mechanical-engineering/",
     "type": "info",
-    "last_checked": "2026-10-30T05:55:35+00:00"
+    "last_checked": "2026-10-30T13:01:51+00:00"
    }
   ]
  },
@@ -573,7 +573,7 @@
     "name": "Aeronautics & Astronautics PhD admissions",
     "url": "https://aa.stanford.edu/academics-admissions/graduate-admissions/phd-admissions",
     "type": "info",
-    "last_checked": "2026-10-30T05:55:35+00:00"
+    "last_checked": "2026-10-30T13:01:51+00:00"
    }
   ]
  },
@@ -631,7 +631,7 @@
     "name": "Aerospace (ex GALCIT) graduate admissions",
     "url": "https://aerospace.caltech.edu/academics/admissions",
     "type": "info",
-    "last_checked": "2026-10-30T05:55:36+00:00"
+    "last_checked": "2026-10-30T13:01:52+00:00"
    }
   ]
  }
