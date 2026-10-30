@@ -1,6 +1,20 @@
 [
  {
   "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship: PhD in an Integrated Intelligent Safe Environment (IISE) in the Nuclear Industry",
+  "url": "https://www.jobs.ac.uk/job/DTM113/phd-studentship-phd-in-an-integrated-intelligent-safe-environment-iise-in-the-nuclear-industry",
+  "created_at": "2026-10-30T22:25:55+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship: Understanding and preventing shock-induced tissue injury using dynamic nanofluidics",
+  "url": "https://www.jobs.ac.uk/job/DTM198/phd-studentship-understanding-and-preventing-shock-induced-tissue-injury-using-dynamic-nanofluidics",
+  "created_at": "2026-10-30T22:25:55+00:00"
+ },
+ {
+  "kind": "new_position",
   "uni": "Oxford",
   "text": "Nuova posizione Oxford: Research Studentship in Graphite Composite Materials for High-Power Neutrino Targets",
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-graphite-composite-materials-for-high-power-neutrino-targets",
