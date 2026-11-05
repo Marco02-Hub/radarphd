@@ -1,5 +1,26 @@
 [
  {
+  "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship: AI-Driven fault diagnosis for wind turbine generators",
+  "url": "https://www.jobs.ac.uk/job/DTN740/phd-studentship-ai-driven-fault-diagnosis-for-wind-turbine-generators",
+  "created_at": "2026-11-05T06:54:21+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "Imperial",
+  "text": "Nuova posizione Imperial: PhD Studentship in Nonlinear Aeroelastic Model Identification Using Physics-Enhanced Machine Learning Approach (Dr Ludovic Renson)",
+  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1857450",
+  "created_at": "2026-11-05T06:54:21+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "Imperial",
+  "text": "Nuova posizione Imperial: PhD Studentship in Advanced Nonlinear Vibration Control for Turbomachinery Blades (Dr Ludovic Renson)",
+  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1857415",
+  "created_at": "2026-11-05T06:54:21+00:00"
+ },
+ {
   "kind": "page_changed",
   "uni": "Cambridge",
   "text": "Cambridge: pagina modificata — Funding opportunities for applicants",
