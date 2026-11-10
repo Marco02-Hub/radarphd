@@ -1,5 +1,33 @@
 [
  {
+  "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship in Soft Robotics and Embodied Intelligence",
+  "url": "https://www.jobs.ac.uk/job/DTP262/phd-studentship-in-soft-robotics-and-embodied-intelligence",
+  "created_at": "2026-11-10T19:48:37+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship - (UoM-Peking) Mineral–Fluid–Rock Interactions for Sustainable Subsurface Energy Technologies",
+  "url": "https://www.jobs.ac.uk/job/DTP480/phd-studentship-uom-peking-mineralfluidrock-interactions-for-sustainable-subsurface-energy-technologies",
+  "created_at": "2026-11-10T19:48:37+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: FSE PhD President's Doctoral Scholarship: Sensing Urban Heat: Integrating Bicycle-Based Measurements, Local Climate Modelling and Spatial Optimisation",
+  "url": "https://www.jobs.ac.uk/job/DTP458/fse-phd-presidents-doctoral-scholarship-sensing-urban-heat-integrating-bicycle-based-measurements-local-climate-modelling-and-spatial-optimisation",
+  "created_at": "2026-11-10T19:48:37+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: FSE PhD President's Doctoral Scholarship: Business Model Innovation and Strategic Coordination in Circular Critical Material Value Chains: An Evolutionary and Agent-Based Modelling of Electric Vehicle Batteries",
+  "url": "https://www.jobs.ac.uk/job/DTP467/fse-phd-presidents-doctoral-scholarship-business-model-innovation-and-strategic-coordination-in-circular-critical-material-value-chains-an-evolutionary-and-agent-based-modelling-of-electric-vehicle-batteries",
+  "created_at": "2026-11-10T19:48:37+00:00"
+ },
+ {
   "kind": "deadline_soon",
   "uni": "UK",
   "text": "UK: «PhD Studentship: Understanding and preventing shock-induced tissue injury using dynamic nanofluidics» scade tra 14 giorni",
@@ -669,34 +697,6 @@
   "uni": "EPFL",
   "text": "Nuova posizione EPFL: PhD Student Position in Fabrication and Characterization of Plasmonic Crystals for Solar Energy",
   "url": "https://careers.epfl.ch/job/Lausanne-PhD-Student-Position-in-Fabrication-and-Characterization-of-Plasmonic-Crystals-for-Solar-Energy/1165576355/",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "EPFL",
-  "text": "Nuova posizione EPFL: PhD Student Position in  Numerical Modeling and Design of Plasmonic Crystals for Solar Energy",
-  "url": "https://careers.epfl.ch/job/Lausanne-PhD-Student-Position-in-Numerical-Modeling-and-Design-of-Plasmonic-Crystals-for-Solar-Energy/1165576555/",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "ETH",
-  "text": "Nuova posizione ETH: Doctoral Positions in Robot Learning and Soft, Musculoskeletal, and Biohybrid Robotics 100%, Zurich, fixed-term 25.08.2026                 |                 Soft Robotics Lab, Institute for Robotics and Intelligent Systems (IRIS), Department of Mechanical and Process Engineering (D-MAVT)",
-  "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_d3lDgHgDI4ewDFQ1Fb",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "ETH",
-  "text": "Nuova posizione ETH: RobotX PhD Fellowship 2027 100%, Zurich, fixed-term 05.10.2026                 |                 Center for Robotics",
-  "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_zBtPwWHnM0fumyTFso",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "ETH",
-  "text": "Nuova posizione ETH: Doctoral Student in Photonic Fluids and Frequency Combs 100%, Zurich, fixed-term 06.10.2026                 |                 Department of Physics (D-PHYS), Institute for Quantum Electronics",
-  "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_AW85uj6ZkjudWY0Yj2",
   "created_at": "2026-10-18T21:58:09+00:00"
  }
 ]
