@@ -1,6 +1,13 @@
 [
  {
   "kind": "new_position",
+  "uni": "Oxford",
+  "text": "Nuova posizione Oxford: British Open-ended Learning and Discovery (BOLD) Research Studentship",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/british-open-ended-learning-and-discovery-bold-research-studentship",
+  "created_at": "2026-11-11T19:40:22+00:00"
+ },
+ {
+  "kind": "new_position",
   "uni": "UK",
   "text": "Nuova posizione UK: PhD Studentship in Soft Robotics and Embodied Intelligence",
   "url": "https://www.jobs.ac.uk/job/DTP262/phd-studentship-in-soft-robotics-and-embodied-intelligence",
@@ -690,13 +697,6 @@
   "uni": "EPFL",
   "text": "Nuova posizione EPFL: PhD position in Aerodynamic Design of Small-Scale Turbomachinery",
   "url": "https://careers.epfl.ch/job/Neuch%C3%A2tel-PhD-position-in-Aerodynamic-Design-of-Small-Scale-Turbomachinery/1165538855/",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "EPFL",
-  "text": "Nuova posizione EPFL: PhD Student Position in Fabrication and Characterization of Plasmonic Crystals for Solar Energy",
-  "url": "https://careers.epfl.ch/job/Lausanne-PhD-Student-Position-in-Fabrication-and-Characterization-of-Plasmonic-Crystals-for-Solar-Energy/1165576355/",
   "created_at": "2026-10-18T21:58:09+00:00"
  }
 ]
