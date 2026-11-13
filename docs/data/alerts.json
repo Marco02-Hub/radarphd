@@ -1,6 +1,34 @@
 [
  {
   "kind": "deadline_soon",
+  "uni": "UK",
+  "text": "UK: «PhD Studentship: Learning the kinetic rules of DNA amplification through high-throughput EXPAR and machine learning» scade tra 10 giorni",
+  "url": "https://www.jobs.ac.uk/job/DTQ577/phd-studentship-learning-the-kinetic-rules-of-dna-amplification-through-high-throughput-expar-and-machine-learning",
+  "created_at": "2026-11-13T19:47:56+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship: Learning the kinetic rules of DNA amplification through high-throughput EXPAR and machine learning",
+  "url": "https://www.jobs.ac.uk/job/DTQ577/phd-studentship-learning-the-kinetic-rules-of-dna-amplification-through-high-throughput-expar-and-machine-learning",
+  "created_at": "2026-11-13T19:47:56+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship: Nanoconfined Water From Molecular Physics to Mechanical Energy Absorption",
+  "url": "https://www.jobs.ac.uk/job/DTQ569/phd-studentship-nanoconfined-water-from-molecular-physics-to-mechanical-energy-absorption",
+  "created_at": "2026-11-13T19:47:56+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship - Sustainability-focused Agent-based Modelling for Aircraft Design with Manufacturing Flexibility",
+  "url": "https://www.jobs.ac.uk/job/DTO141/phd-studentship-sustainability-focused-agent-based-modelling-for-aircraft-design-with-manufacturing-flexibility",
+  "created_at": "2026-11-13T19:47:56+00:00"
+ },
+ {
+  "kind": "deadline_soon",
   "uni": "ETH",
   "text": "ETH: «RobotX PhD Fellowship 2027 100%, Zurich, fixed-term 05.10.2026                 |                 Center for Robotics» scade tra 14 giorni",
   "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_zBtPwWHnM0fumyTFso",
@@ -669,34 +697,6 @@
   "uni": "Oxford",
   "text": "Nuova posizione Oxford: Thermomigration of Hydrogen in Reactor Fuel Cladding Materials",
   "url": "https://www.materials.ox.ac.uk/article/thermomigration-of-hydrogen-in-reactor-fuel-cladding-materials",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Oxford",
-  "text": "Nuova posizione Oxford: Research Studentship in Engineering",
-  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-engineering",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Oxford",
-  "text": "Nuova posizione Oxford: Research Studentship in Mechanics and Physics of Soft Materials",
-  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-mechanics-and-physics-of-soft-materials",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Oxford",
-  "text": "Nuova posizione Oxford: Research Studentship in Control Engineering",
-  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-engineering",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Oxford",
-  "text": "Nuova posizione Oxford: Research Studentship in Control and Neuroscience",
-  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-and-neuroscience",
   "created_at": "2026-10-18T21:58:09+00:00"
  }
 ]
