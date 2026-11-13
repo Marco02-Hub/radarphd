@@ -1,5 +1,19 @@
 [
  {
+  "kind": "deadline_soon",
+  "uni": "ETH",
+  "text": "ETH: «RobotX PhD Fellowship 2027 100%, Zurich, fixed-term 05.10.2026                 |                 Center for Robotics» scade tra 14 giorni",
+  "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_zBtPwWHnM0fumyTFso",
+  "created_at": "2026-11-13T06:51:39+00:00"
+ },
+ {
+  "kind": "page_changed",
+  "uni": "Stanford",
+  "text": "Stanford: pagina modificata — Aeronautics & Astronautics PhD admissions",
+  "url": "https://aa.stanford.edu/academics-admissions/graduate-admissions/phd-admissions",
+  "created_at": "2026-11-13T06:51:39+00:00"
+ },
+ {
   "kind": "new_position",
   "uni": "UK",
   "text": "Nuova posizione UK: PhD Studentship: Machine Learning the Building Blocks of the Weather Forecast",
@@ -683,20 +697,6 @@
   "uni": "Oxford",
   "text": "Nuova posizione Oxford: Research Studentship in Control and Neuroscience",
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-and-neuroscience",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Oxford",
-  "text": "Nuova posizione Oxford: Research Studentship in Control and Engineering Biology",
-  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-and-engineering-biology",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "EPFL",
-  "text": "Nuova posizione EPFL: PhD position in Aerodynamic Design of Small-Scale Turbomachinery -2",
-  "url": "https://careers.epfl.ch/job/Neuch%C3%A2tel-PhD-position-in-Aerodynamic-Design-of-Small-Scale-Turbomachinery-2/1165538555/",
   "created_at": "2026-10-18T21:58:09+00:00"
  }
 ]
