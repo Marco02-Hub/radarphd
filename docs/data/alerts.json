@@ -1,5 +1,26 @@
 [
  {
+  "kind": "new_position",
+  "uni": "Oxford",
+  "text": "Nuova posizione Oxford: Research Studentship in Computational Fracture Mechanics",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-computational-fracture-mechanics",
+  "created_at": "2026-11-16T22:10:56+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "EPFL",
+  "text": "Nuova posizione EPFL: PhD Student in FCC-ee Energy Calibration Studies and Polarization on Colliding Beams",
+  "url": "https://careers.epfl.ch/job/Lausanne-PhD-Student-in-FCC-ee-Energy-Calibration-Studies-and-Polarization-on-Colliding-Beams/1165808155/",
+  "created_at": "2026-11-16T22:10:56+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "ETH",
+  "text": "Nuova posizione ETH: Doctoral Position in Pore-Scale Modelling of Multiphase Flow and Reactive Transport 100%, Zurich, fixed-term 16.11.2026                 |                 Institute for Building Materials at the Department of Civil, Environmental and Geomatic Engineering (D-BAUG)",
+  "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_eKwg0ABzcwTx9yvDIB",
+  "created_at": "2026-11-16T22:10:56+00:00"
+ },
+ {
   "kind": "deadline_soon",
   "uni": "UK",
   "text": "UK: «PhD Studentship: AI-Driven fault diagnosis for wind turbine generators» scade tra 14 giorni",
@@ -676,27 +697,6 @@
   "uni": "Imperial",
   "text": "Nuova posizione Imperial: PhD Studentship in Critical Heat Flux Prediction with Adaptive, Data-driven Uncertainty Quantification (Mike Bluck)",
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1632639",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Control for Autonomous Driving (Dr Johannes Kohler)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1775626",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Computer Simulations of Thermal Fatigue in Aerospace/Nuclear materials (Dr Christos Skamniotis)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1736020",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Bio-lubricants for EV (Janet Wong)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1583292",
   "created_at": "2026-10-18T21:58:09+00:00"
  }
 ]
