@@ -1,5 +1,96 @@
 [
  {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Computational Fracture Mechanics» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-computational-fracture-mechanics",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «British Open-ended Learning and Discovery (BOLD) Research Studentship» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/british-open-ended-learning-and-discovery-bold-research-studentship",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Graphite Composite Materials for High-Power Neutrino Targets» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-graphite-composite-materials-for-high-power-neutrino-targets",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Oxford–UBS Centre for Applied AI DPhil Studentship: Future AI Systems for Finance» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/oxford-ubs-centre-for-applied-ai-dphil-studentship-future-ai-systems-for-finance",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship on Sustainable and Circular AI Systems» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-on-sustainable-and-circular-ai-systems",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Control & Engineering Biology» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-engineering-biology",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Control Theory, Optimization and Learning» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-theory-optimization-and-learning",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Geotechnical Engineering» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-geotechnical-engineering",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Engineering» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-engineering",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Mechanics and Physics of Soft Materials» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-mechanics-and-physics-of-soft-materials",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Control Engineering» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-engineering",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Control and Neuroscience» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-and-neuroscience",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Control and Engineering Biology» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-control-and-engineering-biology",
+  "created_at": "2026-11-18T07:35:45+00:00"
+ },
+ {
   "kind": "new_position",
   "uni": "Oxford",
   "text": "Nuova posizione Oxford: Research Studentship in Computational Fracture Mechanics",
@@ -606,97 +697,6 @@
   "uni": "Imperial",
   "text": "Nuova posizione Imperial: PhD Studentship in Tribology: Fundamental understanding of water-based lubricants for hydraulic and EV applications - iCASE Shell (Prof Daniele Dini)",
   "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1451600",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Tribology of Tyre & Road Emissions (Prof Marc Masen)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1835104",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Thermofluids (Prof Aleiferis)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_965161",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Sustainable Grease Lubrication (Janet Wong)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1583290",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Solid Mechanics-Metal Manufacturing (Dr Jun Jiang)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1736372",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in smart interface and contact (Dr Min Yu)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1239175",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Reducing methane emissions from Liquified Natural Gas (LNG) ship (Yannis Hardalupas)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1668332",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Reconfigurable Meta-structures (Giada Risso)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1741015",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Next-Gen Blade vibration measurement system (Christoph Schwingshackl)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1815002",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in: Lithium Iron Phosphate (LFP) battery modelling for Electric Vehicles and Energy Storage Systems (Monica Marinescu)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1556153",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD studentship in leak detection, localisation and characterisation via fluid borne acoustic signals (Fred Cegla)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1822905",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Heat Transfer-Thermal Stress Modelling of Leading edges in Hypersonic Vehicles (Dr Christos Skamniotis)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1738441",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Digital Twin Development for Mechanical Fragmentation in Sustainable Plastics Recycling (Prof Maria Charalambides)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1775612",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Critical Heat Flux Prediction with Adaptive, Data-driven Uncertainty Quantification (Mike Bluck)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1632639",
   "created_at": "2026-10-18T21:58:09+00:00"
  }
 ]
