@@ -2,6 +2,48 @@
  {
   "kind": "deadline_soon",
   "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Solid Mechanics and Materials» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-solid-mechanics-and-materials",
+  "created_at": "2026-11-18T20:37:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
+  "text": "Oxford: «Research Studentship in Tensegrity Robotics» scade tra 14 giorni",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-tensegrity-robotics",
+  "created_at": "2026-11-18T20:37:45+00:00"
+ },
+ {
+  "kind": "page_changed",
+  "uni": "MIT",
+  "text": "MIT: pagina modificata — AeroAstro graduate admission",
+  "url": "https://aeroastro.mit.edu/education/graduate-admission/",
+  "created_at": "2026-11-18T20:37:45+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "Oxford",
+  "text": "Nuova posizione Oxford: Research Studentship in Solid Mechanics and Materials",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-solid-mechanics-and-materials",
+  "created_at": "2026-11-18T20:37:45+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "Oxford",
+  "text": "Nuova posizione Oxford: Research Studentship in Tensegrity Robotics",
+  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-tensegrity-robotics",
+  "created_at": "2026-11-18T20:37:45+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "ETH",
+  "text": "Nuova posizione ETH: Doctoral Researcher in Energy Systems Modelling, Artificial Intelligence and Digitalization 100%, Zurich, fixed-term 18.11.2026                 |                 Chair of Energy Systems Analysis (ESA)",
+  "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_9IsXaApO43zfSPqD2k",
+  "created_at": "2026-11-18T20:37:45+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "Oxford",
   "text": "Oxford: «Research Studentship in Computational Fracture Mechanics» scade tra 14 giorni",
   "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-in-computational-fracture-mechanics",
   "created_at": "2026-11-18T07:35:45+00:00"
@@ -655,48 +697,6 @@
   "uni": "UK",
   "text": "Nuova posizione UK: PhD Studentship: Multiscale Optimisation of Aperiodic Lattice Metamaterials for Spatially-programmable Printed Structures",
   "url": "https://www.jobs.ac.uk/job/DTE295/phd-studentship-multiscale-optimisation-of-aperiodic-lattice-metamaterials-for-spatially-programmable-printed-structures",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: Computational Simulation Driven In-Vivo Microvascular Characterisation",
-  "url": "https://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/aeronautics/phd/Computational-Simulation-Driven-In-Vivo-Microvascular-Characterisation.docx",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship on Thermoacoustic instability in hydrogen-rich combustors (Prof Aimee Morgans)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1404780",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Water-Based Lubrication (Dr Janet Wong)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1743103",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Tribology: Unlocking the Black Box: A Data-Driven Framework for Surface–Lubricant Interactions (Prof Daniele Dini)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1772529",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Tribology: Metal Forming: Next Generation Patterned Steel Floors for Best in Class Slip Resistance Performance(Prof Daniele Dini)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1451290",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Imperial",
-  "text": "Nuova posizione Imperial: PhD Studentship in Tribology: Fundamental understanding of water-based lubricants for hydraulic and EV applications - iCASE Shell (Prof Daniele Dini)",
-  "url": "https://www.imperial.ac.uk/mechanical-engineering/study/phd/phd-opportunities/current-phd-studentships/#tabpanel_1451600",
   "created_at": "2026-10-18T21:58:09+00:00"
  }
 ]
