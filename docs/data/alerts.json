@@ -2,6 +2,20 @@
  {
   "kind": "new_position",
   "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship: Machine Learning and Uncertainty Quantification for Complex Scientific Systems",
+  "url": "https://www.jobs.ac.uk/job/DTS643/phd-studentship-machine-learning-and-uncertainty-quantification-for-complex-scientific-systems",
+  "created_at": "2026-11-20T20:27:00+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "UK",
+  "text": "Nuova posizione UK: PhD Studentship: Intelligent Control and AI for Sustainable Mobility",
+  "url": "https://www.jobs.ac.uk/job/DTS652/phd-studentship-intelligent-control-and-ai-for-sustainable-mobility",
+  "created_at": "2026-11-20T20:27:00+00:00"
+ },
+ {
+  "kind": "new_position",
+  "uni": "UK",
   "text": "Nuova posizione UK: PhD Studentship: Decoding Charge Dynamics in Triboelectric Nanogenerators with Physics-Informed Neural Networks",
   "url": "https://www.jobs.ac.uk/job/DTS098/phd-studentship-decoding-charge-dynamics-in-triboelectric-nanogenerators-with-physics-informed-neural-networks",
   "created_at": "2026-11-19T20:43:00+00:00"
@@ -683,20 +697,6 @@
   "uni": "UK",
   "text": "Nuova posizione UK: Mechanical and Aerospace Engineering PGRTAs: Enhanced PhD Studentship",
   "url": "https://www.jobs.ac.uk/job/DSY802/mechanical-and-aerospace-engineering-pgrtas-enhanced-phd-studentship",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "UK",
-  "text": "Nuova posizione UK: PhD Studentship - MINELOOP: Investigating MINEwater Systems using Closed-LOOP Geothermal Technologies",
-  "url": "https://www.jobs.ac.uk/job/DTB963/phd-studentship-mineloop-investigating-minewater-systems-using-closed-loop-geothermal-technologies",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "UK",
-  "text": "Nuova posizione UK: PhD Studentship - Optimising Sustainable Bioplastic Supply Chains: Modelling Nanocellulose Production in the UK",
-  "url": "https://www.jobs.ac.uk/job/DTD939/phd-studentship-optimising-sustainable-bioplastic-supply-chains-modelling-nanocellulose-production-in-the-uk",
   "created_at": "2026-10-18T21:58:09+00:00"
  }
 ]
