@@ -1,5 +1,12 @@
 [
  {
+  "kind": "deadline_soon",
+  "uni": "UK",
+  "text": "UK: «PhD Studentship - (UoM-Peking) Mineral–Fluid–Rock Interactions for Sustainable Subsurface Energy Technologies» scade tra 14 giorni",
+  "url": "https://www.jobs.ac.uk/job/DTP480/phd-studentship-uom-peking-mineralfluidrock-interactions-for-sustainable-subsurface-energy-technologies",
+  "created_at": "2026-11-23T07:45:22+00:00"
+ },
+ {
   "kind": "new_position",
   "uni": "UK",
   "text": "Nuova posizione UK: PhD Studentship: Machine Learning and Uncertainty Quantification for Complex Scientific Systems",
@@ -690,13 +697,6 @@
   "uni": "UK",
   "text": "Nuova posizione UK: PhD Studentship - Arc Fault Analysis in Modern Aerospace Power Drive Systems",
   "url": "https://www.jobs.ac.uk/job/DSW590/phd-studentship-arc-fault-analysis-in-modern-aerospace-power-drive-systems",
-  "created_at": "2026-10-18T21:58:09+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "UK",
-  "text": "Nuova posizione UK: Mechanical and Aerospace Engineering PGRTAs: Enhanced PhD Studentship",
-  "url": "https://www.jobs.ac.uk/job/DSY802/mechanical-and-aerospace-engineering-pgrtas-enhanced-phd-studentship",
   "created_at": "2026-10-18T21:58:09+00:00"
  }
 ]
