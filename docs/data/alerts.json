@@ -2,6 +2,20 @@
  {
   "kind": "deadline_soon",
   "uni": "UK",
+  "text": "UK: «PhD Studentship: Decoding Charge Dynamics in Triboelectric Nanogenerators with Physics-Informed Neural Networks» scade tra 14 giorni",
+  "url": "https://www.jobs.ac.uk/job/DTS098/phd-studentship-decoding-charge-dynamics-in-triboelectric-nanogenerators-with-physics-informed-neural-networks",
+  "created_at": "2026-11-25T08:41:39+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "UK",
+  "text": "UK: «PhD Studentship - Arc Fault Analysis in Modern Aerospace Power Drive Systems» scade tra 14 giorni",
+  "url": "https://www.jobs.ac.uk/job/DSW590/phd-studentship-arc-fault-analysis-in-modern-aerospace-power-drive-systems",
+  "created_at": "2026-11-25T08:41:39+00:00"
+ },
+ {
+  "kind": "deadline_soon",
+  "uni": "UK",
   "text": "UK: «PhD in Physics-Aware Graph Neural Networks for Robust Short-Term Visibility Forecasting» scade tra 14 giorni",
   "url": "https://www.jobs.ac.uk/job/DTK857/phd-in-physics-aware-graph-neural-networks-for-robust-short-term-visibility-forecasting",
   "created_at": "2026-11-24T09:59:06+00:00"
@@ -684,19 +698,5 @@
   "text": "Nuova posizione UK: PhD Studentship: Dynamic Analysis of Particle-Based Long-Duration Energy Storage Systems",
   "url": "https://www.jobs.ac.uk/job/DTJ736/phd-studentship-dynamic-analysis-of-particle-based-long-duration-energy-storage-systems",
   "created_at": "2026-10-23T17:14:07+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "UK",
-  "text": "Nuova posizione UK: PhD Studentship (Part-Time) in Control Systems and Robotics (Postgraduate Research Teaching Associate)",
-  "url": "https://www.jobs.ac.uk/job/DTG045/phd-studentship-part-time-in-control-systems-and-robotics-postgraduate-research-teaching-associate",
-  "created_at": "2026-10-22T11:59:44+00:00"
- },
- {
-  "kind": "new_position",
-  "uni": "Oxford",
-  "text": "Nuova posizione Oxford: Research Studentship on Sustainable and Circular AI Systems",
-  "url": "https://eng.ox.ac.uk/study/research-studentships/research-studentship-on-sustainable-and-circular-ai-systems",
-  "created_at": "2026-10-21T11:56:10+00:00"
  }
 ]
